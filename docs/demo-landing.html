@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Emerson Rush — mirror demo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root {
+    --cream: #fdfaf4;
+    --cream-2: #f7f2e7;
+    --ink: #1a1a1a;
+    --line: #e7e1d3;
+    --mute: #6b665c;
+    --accent: #e87722;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--cream); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+  header { padding: 24px 28px; border-bottom: 1px solid var(--line); background: var(--cream-2); }
+  header h1 { margin: 0 0 6px 0; font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 22px; }
+  header p { margin: 0; color: var(--mute); font-size: 14px; max-width: 720px; }
+  nav { padding: 12px 28px; border-bottom: 1px solid var(--line); font-size: 14px; }
+  nav a { color: var(--ink); text-decoration: none; margin-right: 18px; border-bottom: 1px dotted var(--mute); padding-bottom: 2px; }
+  nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .panes { display: grid; grid-template-columns: 1fr 1fr; gap: 0; height: calc(100vh - 138px); }
+  .pane { display: flex; flex-direction: column; border-right: 1px solid var(--line); }
+  .pane:last-child { border-right: 0; }
+  .label { padding: 8px 14px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mute); background: var(--cream-2); border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; }
+  .label .live-tag { color: var(--accent); }
+  iframe { flex: 1; width: 100%; border: 0; background: #fff; }
+  footer { padding: 10px 28px; font-size: 12px; color: var(--mute); border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Emerson Rush — mirror demo</h1>
+  <p>Left pane is the static mirror captured from emersonrush.com. Right pane is the live site loaded directly. The comparison is the demonstration: if the two panes look or feel different, the mirror has failed.</p>
+</header>
+<nav>
+  Open in mirror:
+  <a href="../mirror/www.emersonrush.com/index.html" target="mirror">Home (legacy)</a>
+  <a href="../mirror/www.emersonrush.com/home2026/index.html" target="mirror">Home 2026</a>
+  <a href="../mirror/www.emersonrush.com/ai-solutions/index.html" target="mirror">AI Solutions</a>
+  <a href="../mirror/www.emersonrush.com/service-plans/index.html" target="mirror">Service Plans</a>
+  <a href="../mirror/www.emersonrush.com/about-us/index.html" target="mirror">About</a>
+  <a href="../mirror/www.emersonrush.com/contact/index.html" target="mirror">Contact</a>
+  <a href="../mirror/www.emersonrush.com/es/index.html" target="mirror">ES</a>
+</nav>
+<div class="panes">
+  <div class="pane">
+    <div class="label"><span>Mirror (this repo)</span><span>static</span></div>
+    <iframe name="mirror" src="../mirror/www.emersonrush.com/index.html"></iframe>
+  </div>
+  <div class="pane">
+    <div class="label"><span>Live emersonrush.com</span><span class="live-tag">live</span></div>
+    <iframe name="live" src="https://www.emersonrush.com/"></iframe>
+  </div>
+</div>
+<footer>
+  Note: some third-party sites decline to render inside iframes because of their X-Frame-Options header. If the live pane appears blank, open <a href="https://www.emersonrush.com/" target="_blank" rel="noopener">emersonrush.com</a> in a new tab for the comparison. The mirror pane always renders.
+</footer>
+</body>
+</html>
