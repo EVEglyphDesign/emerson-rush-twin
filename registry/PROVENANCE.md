@@ -14,7 +14,7 @@ All other files under `mirror-2/www.emersonrush.com/` are unchanged copies of th
 | `index.html` (repo root) | `373874285b4a97108f4fc220960aeed70f98df4ebdb16384c528c8edda856a6f` | Modified — landing page for both mirrors |
 | `mirror-2/www.emersonrush.com/index.html` | `eddae5cb43b790d3d35e1ec05ff293ddd67220b45d09f8d9ab78e2cd55e836f7` | Modified — overlay banner injected |
 | `mirror-2/www.emersonrush.com/about-us/index.html` | `e54aa20a035b3ebe153c8cda69b268fffba59e918f5e65f2e863a788aeff6cee` | Modified — overlay banner injected |
-| `mirror-2/www.emersonrush.com/expertise/index.html` | `624b26638f75c9d2b951a8036a67fac66f287e8b82a68d4aefd2a0fd41103499` | New — EVEglyphDesign expertise overlay |
+| `mirror-2/www.emersonrush.com/expertise/index.html` | `b224a7f040fed11a0f2855df8b1d08d234d8ff11dc8eb2bcc5bd3b3868e1b7ae` | Revised 2026-08-15 — added data-lifecycle section (indexing → structuring → restructuring → alignment → consolidation → prediction) and Tobias Polly practitioner card. Previous hash: `624b26638f75c9d2b951a8036a67fac66f287e8b82a68d4aefd2a0fd41103499` |
 
 ## First mirror
 
