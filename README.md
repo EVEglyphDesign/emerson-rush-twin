@@ -4,7 +4,9 @@ Byte-faithful capture of [emersonrush.com](https://www.emersonrush.com/) for dem
 
 **What lives here**
 
-- [`mirror/www.emersonrush.com/`](mirror/www.emersonrush.com/) — the site itself. Full HTML, CSS, JavaScript, images, fonts. Rendered from this directory, the pages look and behave exactly like the original because no HTML content has been rewritten. `wget --convert-links` only adjusts asset paths so the mirror works from a static host.
+- [`mirror/www.emersonrush.com/`](mirror/www.emersonrush.com/) — **first mirror.** Byte-faithful capture, no overlays.
+- [`mirror-2/www.emersonrush.com/`](mirror-2/www.emersonrush.com/) — **second mirror.** Same captured pages plus a small overlay banner on the home and about-us pages, and one new page: [`mirror-2/www.emersonrush.com/expertise/`](mirror-2/www.emersonrush.com/expertise/) — an EVEglyphDesign expertise overlay covering sovereign data repository assessment, the Decision Intelligence Center of Excellence for AI safety and security, and custom-agent execution inside client DMZ environments. Overlays are flagged in-page and in the provenance ledger; the underlying capture is unchanged.
+- Original first-mirror description: the site itself. Full HTML, CSS, JavaScript, images, fonts. Rendered from this directory, the pages look and behave exactly like the original because no HTML content has been rewritten. `wget --convert-links` only adjusts asset paths so the mirror works from a static host.
 - [`docs/demo-landing.html`](docs/demo-landing.html) — a short explainer page that opens the mirror in an iframe alongside the live emersonrush.com so a reviewer can compare them side by side.
 - [`twin/`](twin/) — analysis lane. Kept completely separate from the mirror. Nothing here is injected into or overlaid on the mirrored pages.
 - [`registry/`](registry/) — provenance ledger (SHA-256 + capture timestamp of every mirrored HTML page), source ↔ path map, defect register.

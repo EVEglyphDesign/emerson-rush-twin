@@ -1,5 +1,23 @@
 # Provenance ledger — Emerson Rush mirror
 
+## Second mirror (overlay, 2026-08-14)
+
+Overlay timestamp (UTC): `2026-08-15T00:29:01Z`  
+Second-mirror root: `mirror-2/www.emersonrush.com/`  
+Method: copy of the first mirror + three modified files (root landing, home banner, about-us banner) + one new file (`expertise/index.html`).  
+Authorship: the expertise page is EVEglyphDesign copy, not Emerson Rush copy — it is flagged as an overlay in-page and here.
+
+All other files under `mirror-2/www.emersonrush.com/` are unchanged copies of the first mirror and inherit its hashes.
+
+| Local path | SHA-256 | Kind |
+|---|---|---|
+| `index.html` (repo root) | `373874285b4a97108f4fc220960aeed70f98df4ebdb16384c528c8edda856a6f` | Modified — landing page for both mirrors |
+| `mirror-2/www.emersonrush.com/index.html` | `eddae5cb43b790d3d35e1ec05ff293ddd67220b45d09f8d9ab78e2cd55e836f7` | Modified — overlay banner injected |
+| `mirror-2/www.emersonrush.com/about-us/index.html` | `e54aa20a035b3ebe153c8cda69b268fffba59e918f5e65f2e863a788aeff6cee` | Modified — overlay banner injected |
+| `mirror-2/www.emersonrush.com/expertise/index.html` | `624b26638f75c9d2b951a8036a67fac66f287e8b82a68d4aefd2a0fd41103499` | New — EVEglyphDesign expertise overlay |
+
+## First mirror
+
 Capture timestamp (UTC): `2026-08-13T16:52:24Z`  
 Mirror root: `mirror/www.emersonrush.com/`  
 Tool: `wget --mirror --page-requisites --convert-links --adjust-extension`  
