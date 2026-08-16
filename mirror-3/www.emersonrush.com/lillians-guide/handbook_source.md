@@ -89,8 +89,6 @@ A programme that satisfies all four is Sovereign in this sense. A programme that
 
 The habit, taken together, is a habit of adding — a method, a tool now within reach, a name to call, a competent hand held out at the right moment. Where we can add, we add. Where we cannot, we say so, and we point to someone who can.
 
-*Pour le bien-être du peuple.*
-
 ---
 
 ## Colophon

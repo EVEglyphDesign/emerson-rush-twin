@@ -2,6 +2,22 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
+### Revision 7.1 — closing mark reduced to one instance in the Colophon (2026-08-16T07:41:51Z)
+
+The closing mark *Pour le bien-être du peuple* was appearing on every page (in the footer, in accent-orange italic) and twice in the source (end of Part IV and end of the Colophon). The operator identified the repetition as a defect: the phrase is his signature on the record, once, and stamping it across every page treats it as Lillian's motto — which it is not, and which pre-empts any phrase Lillian might choose for herself. The phrase now appears in exactly one place: the closing line of the Colophon on page 5. The every-page footer carries only the copyright line, the generation timestamp, the truncated content hash, and the page number. The Part IV closing repetition is removed.
+
+No tonal or substantive change from rev 7. Same content, same 5-page structure, same SAP framing, same PAIX register. Only the signature discipline is corrected.
+
+Updated identity:
+
+- Content fingerprint (pass-2 body) — `f8ebc45baded35b8da11c04fb5f4bd3a5ceeb2d1401d91b9a1822d0a16386907`
+- File SHA-256 (pass-3 stamped) — `9c4e1c32c90be875bf6a629d0a9c746f5f5e97df735e8504f4a8931259a000bc`
+- Handbook source SHA-256 — `e593ff682d4fa97dd5881586026c8e601f0fa17e723aee1424b16eeadf6ace3e`
+- Landing page SHA-256 — `3a6a21c10cac1981f6f14ddc639f78cd8e7aedaa86c62674b6b28273fde98ec4`
+- Pages, format, fonts — unchanged from rev 7
+
+Prior rev-7 handbook PDF `171fe5ef07ab37ab149d572d943e8a89a5c44ceda7a58a7b46f9e8fde897a3d6` and landing page `b3d11e8b837f8f5149985a8620b5160226a9146df53143b77c4dedfa54d9c0a1` are preserved in the commit history at [`12afd99`](https://github.com/EVEglyphDesign/emerson-rush-twin/commit/12afd99) for tamper-verification.
+
 ### Revision 7 — tonal rewrite in Lillian's voice, PAIX Part IV in field register, pro-SAP position restored (2026-08-16T07:31:30Z)
 
 Full tonal rewrite of the handbook body in the softer, descriptive register Lillian actually uses — principles renamed as habits, combative claim-language replaced with observations, the closing slogan “There is only one Lillian” removed from the Part I claim, from the Colophon, and from the front-page meta line in the builder. The word **Sovereign** is retained — explicitly — as the technical and copyright term it was designed to be: Lillian is named as *the Sovereign* of the practice, the reader is named as *the ruler of their sovereign data*, and the running subtitle “The Sovereign practitioner canon” is preserved on the front page.
