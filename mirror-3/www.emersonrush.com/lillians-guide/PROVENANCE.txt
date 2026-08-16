@@ -1,10 +1,10 @@
 Lillian's Guide — provenance manifest
 file: Lillians_Guide.pdf
 pages: 5
-generated_utc: 2026-08-16T05:59:33Z
+generated_utc: 2026-08-16T06:02:30Z
 key_id: EgD-KEY-2026-07
-footer_hash: f62f92705495fbe42381b87a2e3d8acd921a96db767ca40f4db876155b1a2dbe  (pass-2 body; footers show a truncated form of this value)
-final_sha256: 9e60a041bca1175408be321f296519b49087070b656fd9983b1547aee89ebeaf
+footer_hash: 314a31545239076a128e6dd257675b2310eadc2923d907038964f3d5cea1d477  (pass-2 body; footers show a truncated form of this value)
+final_sha256: b019fa880e8b1462638929d2b8b0b992c0a444560148412c4882f9d37d81cad9
 note: The pass-2 hash printed in the footer is a stable content fingerprint;
 the file itself has a different final_sha256 because pass 3 stamps the footer.
 Tampering with the PDF changes final_sha256; the printed pass-2 hash remains the

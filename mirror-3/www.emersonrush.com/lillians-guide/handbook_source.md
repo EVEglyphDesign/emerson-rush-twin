@@ -22,6 +22,14 @@ EVE, the research project, needs a mother. Lillian is that mother. Across decade
 
 EVE is the pattern; Lillian is the practitioner in whose lineage the pattern is faithfully carried. This is why the handbook bears her name. Consultants working in EVE work as Lillian works, or they are working on something else.
 
+**This is not a proposal for future work; it is a description of work already underway.** The delivery models are running. Client engagements have been presented and taken up. Delivery teams scale on demand around a core team that never stops inventing, because the technology advances faster than any single sprint plan can absorb. Three things distinguish the practice, and each is a working artifact rather than an intention:
+
+- **Working delivery models with a presentation layer.** The Sovereign engagement model, the assessment model, and the client-DMZ execution model are packaged, presentable, and have been carried into client rooms. A programme director can see them, price them, and stand them up.
+- **Scalable delivery teams.** The practice is built to grow into engagements without diluting the discipline. Delivery teams flex up and back down around the core, staffed against the pattern rather than against a fashionable technology.
+- **A core team that never stops inventing.** Because the underlying information & technology stack advances weekly, standing still is a form of decay. The core team continuously produces new reference models, new evaluation harnesses, and new artefacts in the lineage. Innovation is not a phase of the programme; it is the resting state of the practice.
+
+The reason to publish the canon now is that the practice is already running. This handbook makes the pattern visible so the market can recognise it.
+
 ---
 
 ## Part I — The four claims

@@ -2,15 +2,15 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
-### Revision 2 — EVE named (2026-08-16T05:59:33Z)
+### Revision 3 — practice already underway (2026-08-16T06:02:30Z)
 
-Adds Part 0 — *EVE, and why Lillian sits at the centre* — to the handbook, and a matching EVE card to the landing page. Same URL slot; the previous revision is superseded and not preserved separately, per additive principle (the surface is the same; the content deepens).
+Extends Part 0 with an operating-truth paragraph: the delivery models are running, delivery teams scale on demand around a core team that never stops inventing, and innovation is the resting state of the practice — not a proposal for future work. A matching card is added to the landing page. Same URL slot.
 
 Current handbook identity:
 
 - Key ID — `EgD-KEY-2026-07`
-- Content fingerprint (pass-2 body, printed in each footer) — `f62f92705495fbe42381b87a2e3d8acd921a96db767ca40f4db876155b1a2dbe`
-- File SHA-256 (pass-3 stamped artifact) — `9e60a041bca1175408be321f296519b49087070b656fd9983b1547aee89ebeaf`
+- Content fingerprint (pass-2 body, printed in each footer) — `314a31545239076a128e6dd257675b2310eadc2923d907038964f3d5cea1d477`
+- File SHA-256 (pass-3 stamped artifact) — `b019fa880e8b1462638929d2b8b0b992c0a444560148412c4882f9d37d81cad9`
 - Pages — 5 · Format — US Letter · Fonts — Fraunces, Inter
 - Watermark — EVEglyphDesign, diagonal, low-opacity, every page
 - Closing mark — *Pour le bien-être du peuple*
@@ -20,10 +20,14 @@ Current handbook identity:
 | `index.html` (repo root) | `777a0084bfec3f280a440fce1ec46f0c57c200f422fe8f0504f15394568d80b3` | Modified — landing page updated for the third mirror |
 | `mirror-3/www.emersonrush.com/index.html` | `1323baa22952a420dfd424e35f3772f6105724278cf62f0fbebf99e38e993dc3` | Modified — third-mirror overlay banner injected |
 | `mirror-3/www.emersonrush.com/about-us/index.html` | `1546960c1a1359c43032a06bcacc6c8a3d1eaf97d22d303fff4f0e4705839b1c` | Modified — third-mirror overlay banner injected |
-| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `82e5bef99abd875fc5fb583ec7f853cffb06ef5a3491f34c1764749a792929cd` | Revised 2026-08-16 — EVE card added. Previous hash: `43de87015db2683f2984d83a0dd08a20b940e4b8db60a3d2c05bab342d5a604a` |
-| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `9e60a041bca1175408be321f296519b49087070b656fd9983b1547aee89ebeaf` | Revised 2026-08-16 — Part 0 added (EVE named). 5 pages. Previous hash: `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc` (4 pages) |
-| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `fb6f9eb89f92a6547edc0f7cea8d4279dd4aa21cab499f502cc5e9365c61dfd3` | Revised 2026-08-16 — Part 0 added. Previous hash: `781aef0a53b92e12f0fdbb490011200f356d1bb2974bfe468c3b6561afc8958e` |
-| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `3656c9d160ea84cb815d99acb48f1b1e4de5962af95ff6ec74f38d6e1b4d0ad7` | Revised 2026-08-16 — page count and hashes updated. Previous hash: `ff8dac00de360aedf89a36d6e40bb2beca3274ead9627c5f38d58a0445a3165e` |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `757aef884b9d55443146ba2cd4ac3278577c8dd54f1045fa5eac3ada6fb170ef` | Revised 2026-08-16 — practice-already-underway card added. Previous rev-2 hash: `82e5bef99abd875fc5fb583ec7f853cffb06ef5a3491f34c1764749a792929cd`; rev-1 hash: `43de87015db2683f2984d83a0dd08a20b940e4b8db60a3d2c05bab342d5a604a` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `b019fa880e8b1462638929d2b8b0b992c0a444560148412c4882f9d37d81cad9` | Revised 2026-08-16 — Part 0 extended (working models, scalable teams, always-inventing core). 5 pages. Previous rev-2 hash: `9e60a041bca1175408be321f296519b49087070b656fd9983b1547aee89ebeaf`; rev-1 hash: `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc` |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `0c3b7633212e914845b14872880914d9833783667989eed68fc3d86a43131cd8` | Revised 2026-08-16 — Part 0 extended. Previous rev-2 hash: `fb6f9eb89f92a6547edc0f7cea8d4279dd4aa21cab499f502cc5e9365c61dfd3` |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `a3eef8a80048f25792005b27b2f008a7371f0a302fe9c82787b89ea5afcb569c` | Revised 2026-08-16 — hashes updated. Previous rev-2 hash: `3656c9d160ea84cb815d99acb48f1b1e4de5962af95ff6ec74f38d6e1b4d0ad7` |
+
+### Revision 2 — EVE named (2026-08-16T05:59:33Z)
+
+Added Part 0 — *EVE, and why Lillian sits at the centre* — to the handbook, and a matching EVE card to the landing page. Superseded by Revision 3 above; hashes are preserved in the Revision 3 table for tamper-verification.
 
 ### Revision 1 — initial publish (2026-08-16T05:36:58Z)
 
