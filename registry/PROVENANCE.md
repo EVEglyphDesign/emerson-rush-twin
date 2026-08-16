@@ -2,17 +2,16 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
-Canon timestamp (UTC): `2026-08-16T05:36:58Z`  
-Third-mirror root: `mirror-3/www.emersonrush.com/`  
-Method: copy of the first mirror + two modified files (home banner, about-us banner) + one new page (`lillians-guide/index.html`) + a canon PDF handbook, its markdown source, and a local provenance manifest.  
-Authorship: the handbook is EVEglyphDesign copy, not Emerson Rush copy — it is flagged as an overlay in-page, in the banner, and here. All other files under `mirror-3/www.emersonrush.com/` are unchanged copies of the first mirror and inherit its hashes.
+### Revision 2 — EVE named (2026-08-16T05:59:33Z)
 
-Handbook identity:
+Adds Part 0 — *EVE, and why Lillian sits at the centre* — to the handbook, and a matching EVE card to the landing page. Same URL slot; the previous revision is superseded and not preserved separately, per additive principle (the surface is the same; the content deepens).
+
+Current handbook identity:
 
 - Key ID — `EgD-KEY-2026-07`
-- Content fingerprint (pass-2 body, printed in each footer) — `8ad8f5d60b40e617d69adf13d33cb9ee4f1cb34f8b66600f35c9ee746a3a6059`
-- File SHA-256 (pass-3 stamped artifact) — `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc`
-- Pages — 4 · Format — US Letter · Fonts — Fraunces, Inter
+- Content fingerprint (pass-2 body, printed in each footer) — `f62f92705495fbe42381b87a2e3d8acd921a96db767ca40f4db876155b1a2dbe`
+- File SHA-256 (pass-3 stamped artifact) — `9e60a041bca1175408be321f296519b49087070b656fd9983b1547aee89ebeaf`
+- Pages — 5 · Format — US Letter · Fonts — Fraunces, Inter
 - Watermark — EVEglyphDesign, diagonal, low-opacity, every page
 - Closing mark — *Pour le bien-être du peuple*
 
@@ -21,10 +20,14 @@ Handbook identity:
 | `index.html` (repo root) | `777a0084bfec3f280a440fce1ec46f0c57c200f422fe8f0504f15394568d80b3` | Modified — landing page updated for the third mirror |
 | `mirror-3/www.emersonrush.com/index.html` | `1323baa22952a420dfd424e35f3772f6105724278cf62f0fbebf99e38e993dc3` | Modified — third-mirror overlay banner injected |
 | `mirror-3/www.emersonrush.com/about-us/index.html` | `1546960c1a1359c43032a06bcacc6c8a3d1eaf97d22d303fff4f0e4705839b1c` | Modified — third-mirror overlay banner injected |
-| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `43de87015db2683f2984d83a0dd08a20b940e4b8db60a3d2c05bab342d5a604a` | New — Lillian's Guide download surface |
-| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc` | New — Lillian's Guide handbook (canon PDF, 4 pages, watermarked & hashed) |
-| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `781aef0a53b92e12f0fdbb490011200f356d1bb2974bfe468c3b6561afc8958e` | New — canonical markdown source for the handbook |
-| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `ff8dac00de360aedf89a36d6e40bb2beca3274ead9627c5f38d58a0445a3165e` | New — local provenance manifest for the PDF |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `82e5bef99abd875fc5fb583ec7f853cffb06ef5a3491f34c1764749a792929cd` | Revised 2026-08-16 — EVE card added. Previous hash: `43de87015db2683f2984d83a0dd08a20b940e4b8db60a3d2c05bab342d5a604a` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `9e60a041bca1175408be321f296519b49087070b656fd9983b1547aee89ebeaf` | Revised 2026-08-16 — Part 0 added (EVE named). 5 pages. Previous hash: `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc` (4 pages) |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `fb6f9eb89f92a6547edc0f7cea8d4279dd4aa21cab499f502cc5e9365c61dfd3` | Revised 2026-08-16 — Part 0 added. Previous hash: `781aef0a53b92e12f0fdbb490011200f356d1bb2974bfe468c3b6561afc8958e` |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `3656c9d160ea84cb815d99acb48f1b1e4de5962af95ff6ec74f38d6e1b4d0ad7` | Revised 2026-08-16 — page count and hashes updated. Previous hash: `ff8dac00de360aedf89a36d6e40bb2beca3274ead9627c5f38d58a0445a3165e` |
+
+### Revision 1 — initial publish (2026-08-16T05:36:58Z)
+
+Initial version of the third mirror. Method: copy of the first mirror + two modified files (home banner, about-us banner) + one new page (`lillians-guide/index.html`) + a canon PDF handbook (4 pages), its markdown source, and a local provenance manifest. Superseded by Revision 2 above; previous hashes are recorded in that table for tamper-verification.
 
 ## Second mirror (overlay, 2026-08-14)
 

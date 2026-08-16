@@ -14,6 +14,16 @@ We call the space **Sovereign** because ownership of the appreciating asset neve
 
 ---
 
+## Part 0 — EVE, and why Lillian sits at the centre
+
+**EVE** — capital E, V, E — is the research and governance project this handbook belongs to. It exists to free the digital world from institutional lock-in and to place data and decision intelligence back in the hands of the people who generate them. EVE reframes information and technology as a customer-owned reference model with a ledgered spine, portable identity, tested exits, and a return that lands outside the IT column. It is the design pattern from which the Sovereign posture in this handbook is drawn.
+
+EVE, the research project, needs a mother. Lillian is that mother. Across decades of transformational programme management — anchored most visibly in her work for Swedish private-equity-run portfolio companies — she has been the operational centre of gravity for sovereign-stack deployment and independent assessment inside client environments. Her practice is the pattern EVE encodes: name the appreciating asset before the charter is signed, mark the return where it actually lands, design for owner-led custody from the first drawing, and hand the keys back on the way out.
+
+EVE is the pattern; Lillian is the practitioner in whose lineage the pattern is faithfully carried. This is why the handbook bears her name. Consultants working in EVE work as Lillian works, or they are working on something else.
+
+---
+
 ## Part I — The four claims
 
 **Claim 1. Information and technology is now a capital asset, not a cost centre.**
@@ -95,6 +105,6 @@ A programme that satisfies all four is Sovereign. A programme that satisfies thr
 
 ## Colophon
 
-Authored in the lineage of Lillian, for the Sovereign practitioner community. Watermarked and content-hashed on export. The reader is free to copy, mirror, and redistribute this document. The practice it describes is not copyable, and the watermark makes tampering legible without preventing use. There is only one Lillian.
+Authored in the lineage of Lillian, for the Sovereign practitioner community working inside the EVE research and governance project. Watermarked and content-hashed on export. The reader is free to copy, mirror, and redistribute this document. The practice it describes is not copyable, and the watermark makes tampering legible without preventing use. There is only one Lillian.
 
 *Pour le bien-être du peuple.*
