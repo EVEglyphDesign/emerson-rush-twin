@@ -1,0 +1,15 @@
+Consultation NDA — mutual, plain-language, referrals free and standing
+Mirror 4 · Richemont-audience revision (unchanged text; regenerated for provenance)
+
+File:        Consultation_NDA.pdf
+Pages:       4 · US Letter
+SHA-256:     e823855077389dd26b341b8fed2b8242ff3ca91383f40ec7630735e8f4821b89
+Body SHA-256 (nda_source.md):
+             801b51b3bd1a10278af28acf10f1c64a2a48c83de7bfcea9ee430448a411e9c2
+Footer SHA-256 (pass-2 body, printed in each footer):
+             4e8159646dee60390a024f1909ac941cb013a692588acfb642e08cac4b98c188
+Key ID:      EgD-KEY-2026-07
+Generated:   2026-08-16T22:17:00Z UTC
+
+Copyright © 2026 EVEglyphDesign. All rights reserved. Controlled copy.
+Pour le bien-être du peuple.

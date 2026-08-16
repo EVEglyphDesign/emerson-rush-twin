@@ -1,5 +1,50 @@
 # Provenance ledger — Emerson Rush mirror
 
+## Fourth mirror — Lillian's Guide, tuned for a Group Platforms reader (2026-08-16)
+
+### Revision 9 — mirror-4 anchored at `www.richemont.com/lillians-guide/`, handbook rewritten with clean-core/satellites/BTP vocabulary, EVE positioned as an additive satellite (2026-08-16T22:17:00Z)
+
+A fourth mirror scaffold is created under `mirror-4/www.richemont.com/lillians-guide/`. This is an EVEglyphDesign authored surface published *alongside* a Richemont mirror scaffold; it is not a captured copy of any richemont.com page and carries no affiliation with Compagnie Financière Richemont SA or any of its Maisons. The overlay band and the landing-page footer state this explicitly.
+
+The handbook is tuned to a specific reader — a Group Platforms leadership team inside a luxury-goods enterprise running a business-led, clean-core ERP transformation, currently in the discovery-into-solution-design flow. The tuning is *vocabulary*, not naming: no engagement label appears on the page, no attendee is named. Recognition comes through the words the programme already uses about itself, cross-referenced from four public recruitment postings for the transformation programme ([Programme Manager, trabajo.org](https://ch.trabajo.org/stellenangebot-4100-bf92c4920943d7571a24130638f97927); [Programme Manager, experteer.nl](https://www.experteer.nl/career/view-jobs/new-foundations-programme-manager-meyrin-schweiz-57990723); [Technical Manager, bebee.com](https://bebee.com/us/jobs/new-foundations-s4hana-transformation-technical-manager-richemont-international-sa-bellevue--lensa-7428_9478026c988cef263b01f0ed6e6918556c5108b9b2a97e92f0b643d02e071e98); [S/4HANA Transformation Architect, bebee.com](https://bebee.com/us/jobs/s-4hana-transformation-architect-richemont-international-sa-bellevue--lensa-7428_4245683e1728c07c7e10968746cb2b3a74cdc331bcddb7246369dfc750c4f07f)).
+
+Substantive changes vs mirror-3:
+
+1. **Foreword** re-cast so the appreciating asset is described as the coherent-and-future-proof enterprise landscape a Group Platforms function is trying to leave behind for the next decade — the language the programme's own postings use. Multi-Maison consolidation is named explicitly as one of the places return lands.
+2. **Part 0 renamed** *EVE, and where it stands in a clean-core landscape*. EVE is positioned as an additive satellite: it does not modify the ERP core, does not compete with the group data platform (it contributes semantics upward), and runs on the extension platform the enterprise has already committed to. Two executive frames are addressed by role, not by name: a Chief Data Officer building a data-and-AI-augmented future for the enterprise, and a Chief Platforms Officer protecting a clean core.
+3. **Part I** gets one new observation-line: in a multi-entity, multi-Maison enterprise, the well-structured data spine also shortens the distance between what a Maison knows about its own performance and what the group can see at consolidation. Named as a distinct benefit worth carrying separately from the finance/operations/commercial/legal line.
+4. **Part II** adds a new habit — *Keeping the satellite outside the core* — and updates *Marking the return where it lands* to explicitly name the Technology-CFO defence: the same benefits map that publishes the honest scoreboard is what the technology function's CFO uses to defend the platform's unit economics to the operating businesses whose money it is spending.
+5. **Part III** closes with a paragraph tying the four Sovereign checks to a business-led clean-core doctrine's own principles: custody-and-authority are what *business-led* means when taken seriously; exit is what *coherent-and-future-proof* preserves; return is what the benefits case is measuring. A programme running its own principles will already pass most of the checklist.
+6. **Colophon** ends with the satellite/clean-core position stated explicitly, so the paper's technological standpoint is legible from the last line.
+
+Landing page:
+
+- New *For this reader* card at the top, above the practitioner card, in the same accent-left leading style. States the reader is a Group Platforms conversation inside a luxury-goods enterprise on a business-led, clean-core, satellites-and-BTP posture, discovery-into-solution-design. No engagement label; no attendee.
+- Practitioner card tag cloud gains **Clean-core doctrine** and **Satellites & BTP**.
+- New *EVE as a satellite on the SAP foundation* card replaces the mirror-3 grounding card, adding the clean-core / group-data-platform / unit-economics framing without dropping the pro-SAP position.
+- *How this mirror is different* rewritten to describe the mirror-4 step: tuning to a specific reader through vocabulary, not naming.
+- Overlay band re-worded for the richemont.com surface with an explicit non-affiliation statement.
+- Both files (Handbook PDF and NDA PDF) are freshly rebuilt in-place and the landing page fingerprints match the on-disk files.
+
+Durability discharge — participants reference material:
+
+Two participant-list screenshots from the operator (`participants_page1.jpg`, `participants_page2.jpg`) and a roster README are filed under `mirror-4/www.richemont.com/lillians-guide/_participants/` — private working reference material, not part of the public surface, filed under `_participants/` to signal engagement-governed content. This discharges the standing durability rule `EgD-SIN-D-2026-08-16-002` in the same working turn the material was received.
+
+Updated identity:
+
+- Landing page SHA-256 — `5e0b2f93a87c3f40133a6230c799f7b20b8289711ed843519572b3fad87dfb8c`
+- Handbook PDF SHA-256 — `214fd6445d095764ed4ea206b0e94bb70ffedfe73a5849c586528ad2c223336f` (6 pages · US Letter)
+- Handbook body fingerprint (pass-2, printed in each footer) — `db22eb0f73004f8cc619265316ae0313cfad7268a62d8b7760012f05efc7b0ea`
+- Handbook source SHA-256 — `6167bf43ffec138a9c2bdf15b6341a5f52674ba2829cc834f7e9a5c2595f7dd9`
+- NDA PDF SHA-256 — `e823855077389dd26b341b8fed2b8242ff3ca91383f40ec7630735e8f4821b89` (4 pages · US Letter · text unchanged from rev 6, PDF regenerated in-place for provenance in this mirror)
+- NDA body fingerprint (pass-2, printed in each footer) — `4e8159646dee60390a024f1909ac941cb013a692588acfb642e08cac4b98c188`
+- NDA source SHA-256 — `801b51b3bd1a10278af28acf10f1c64a2a48c83de7bfcea9ee430448a411e9c2` (unchanged from rev 6)
+- Participants image SHA-256s — `participants_page1.jpg` = `b32c2e7ade3ea94916d62a76ea08fe26fe8ec948b9279fb7d7ac42005062bcdd`; `participants_page2.jpg` = `009e0e3637c80eb38335b2aac04052e837c6983922fd598032edd41b186ec12e`
+- Generated — `2026-08-16T22:17:00Z` UTC
+- Key ID — `EgD-KEY-2026-07`
+
+All prior rev-8 identity values (landing page `152df73994681148c838adf00cce3df510391305fa14e18f746213944c4621d0`, handbook `9c4e1c32c90be875bf6a629d0a9c746f5f5e97df735e8504f4a8931259a000bc`, handbook source `e593ff682d4fa97dd5881586026c8e601f0fa17e723aee1424b16eeadf6ace3e`, NDA `7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c`) remain in force at the mirror-3 slot under `mirror-3/www.emersonrush.com/lillians-guide/` and are preserved in the commit history at [`32d7b24`](https://github.com/EVEglyphDesign/emerson-rush-twin/commit/32d7b24) for tamper-verification. Mirror-3 is untouched by this rev.
+
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
 ### Revision 8 — landing page rewritten around Lilian's practitioner card, order reset (2026-08-16T14:05:00Z)
