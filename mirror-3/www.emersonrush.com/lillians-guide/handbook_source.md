@@ -18,17 +18,9 @@ We call the space **Sovereign** because ownership of the appreciating asset neve
 
 **EVE** — capital E, V, E — is the research and governance project this handbook belongs to. It exists to free the digital world from institutional lock-in and to place data and decision intelligence back in the hands of the people who generate them. EVE reframes information and technology as a customer-owned reference model with a ledgered spine, portable identity, tested exits, and a return that lands outside the IT column. It is the design pattern from which the Sovereign posture in this handbook is drawn.
 
-EVE, the research project, needs a mother. Lillian is that mother. Across decades of transformational programme management — anchored most visibly in her work for Swedish private-equity-run portfolio companies — she has been the operational centre of gravity for sovereign-stack deployment and independent assessment inside client environments. Her practice is the pattern EVE encodes: name the appreciating asset before the charter is signed, mark the return where it actually lands, design for owner-led custody from the first drawing, and hand the keys back on the way out.
+EVE, the research project, needs a mother. Lillian is that mother. Across decades of transformational programme management, she has been the operational centre of gravity for sovereign-stack deployment and independent assessment inside client environments. Her practice is the pattern EVE encodes: name the appreciating asset before the charter is signed, mark the return where it actually lands, design for owner-led custody from the first drawing, and hand the keys back on the way out.
 
 EVE is the pattern; Lillian is the practitioner in whose lineage the pattern is faithfully carried. This is why the handbook bears her name. Consultants working in EVE work as Lillian works, or they are working on something else.
-
-**This is not a proposal for future work; it is a description of work already underway.** The delivery models are running. Client engagements have been presented and taken up. Delivery teams scale on demand around a core team that never stops inventing, because the technology advances faster than any single sprint plan can absorb. Three things distinguish the practice, and each is a working artifact rather than an intention:
-
-- **Working delivery models with a presentation layer.** The Sovereign engagement model, the assessment model, and the client-DMZ execution model are packaged, presentable, and have been carried into client rooms. A programme director can see them, price them, and stand them up.
-- **Scalable delivery teams.** The practice is built to grow into engagements without diluting the discipline. Delivery teams flex up and back down around the core, staffed against the pattern rather than against a fashionable technology.
-- **A core team that never stops inventing.** Because the underlying information & technology stack advances weekly, standing still is a form of decay. The core team continuously produces new reference models, new evaluation harnesses, and new artefacts in the lineage. Innovation is not a phase of the programme; it is the resting state of the practice.
-
-The reason to publish the canon now is that the practice is already running. This handbook makes the pattern visible so the market can recognise it.
 
 ---
 

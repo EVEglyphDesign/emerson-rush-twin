@@ -2,9 +2,37 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
-### Revision 3 — practice already underway (2026-08-16T06:02:30Z)
+### Revision 4 — retraction (2026-08-16T06:15:34Z)
 
-Extends Part 0 with an operating-truth paragraph: the delivery models are running, delivery teams scale on demand around a core team that never stops inventing, and innovation is the resting state of the practice — not a proposal for future work. A matching card is added to the landing page. Same URL slot.
+Operator instruction: pull back the material that named a client segment by nationality ("Swedish private-equity-run portfolio companies") and the material that made public claims about delivery capacity ("working delivery models with a presentation layer", "scalable delivery teams", "a core team that never stops inventing"). Both breached canon:
+
+- Naming a nationality-bounded client segment on a public surface singles clients out and is not permitted.
+- Public braggart claims about execution delivery capacity and scalable teams are not enterprise-grade and are not permitted.
+
+Removed from the handbook (Part 0) and from the landing page. The line about Lillian's practice being anchored in Swedish private-equity-run portfolio companies is deleted. The three-bullet "working delivery models / scalable delivery teams / a core team that never stops inventing" card is deleted from the landing page and the paragraph is deleted from the handbook. What remains is the sober naming of EVE, the naming of Lillian at its centre, and the pattern statement. See defect record `SIN-2026-08-16-01` in the boot-contract registry (severity **+9**, class **C** — canon breach, with an aggravating element of client-identification breach).
+
+Current handbook identity:
+
+- Key ID — `EgD-KEY-2026-07`
+- Content fingerprint (pass-2 body, printed in each footer) — `5df5e16b8dd5a689c2bcc942e69080ca41acd8245f1d54d422a9a8eff7a6f595`
+- File SHA-256 (pass-3 stamped artifact) — `d0822b6e55ef1e17141dd7828fd09e631c4265fdaffcb23ac4cb890f0fb526b4`
+- Pages — 5 · Format — US Letter · Fonts — Fraunces, Inter
+- Watermark — EVEglyphDesign, diagonal, low-opacity, every page
+- Closing mark — *Pour le bien-être du peuple*
+
+| Local path | SHA-256 | Kind |
+|---|---|---|
+| `index.html` (repo root) | `777a0084bfec3f280a440fce1ec46f0c57c200f422fe8f0504f15394568d80b3` | Modified — landing page updated for the third mirror |
+| `mirror-3/www.emersonrush.com/index.html` | `1323baa22952a420dfd424e35f3772f6105724278cf62f0fbebf99e38e993dc3` | Modified — third-mirror overlay banner injected |
+| `mirror-3/www.emersonrush.com/about-us/index.html` | `1546960c1a1359c43032a06bcacc6c8a3d1eaf97d22d303fff4f0e4705839b1c` | Modified — third-mirror overlay banner injected |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `da971c399a5a9abef0596b0501789a7b7a379595dedcac2bcf12a60b1ced5e46` | Revised 2026-08-16 — retraction: capacity-claim card removed, nationality reference removed. Previous rev-3 hash: `757aef884b9d55443146ba2cd4ac3278577c8dd54f1045fa5eac3ada6fb170ef` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `d0822b6e55ef1e17141dd7828fd09e631c4265fdaffcb23ac4cb890f0fb526b4` | Revised 2026-08-16 — retraction of Part 0 additions. 5 pages. Previous rev-3 hash: `b019fa880e8b1462638929d2b8b0b992c0a444560148412c4882f9d37d81cad9` |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `39e3ac007007d8e843dddeec9d7bd03d36fe1449ee81f703c583b9c657e72632` | Revised 2026-08-16 — retraction. Previous rev-3 hash: `0c3b7633212e914845b14872880914d9833783667989eed68fc3d86a43131cd8` |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `16d6930752d3d8c412679439987151cedeb92702a8c8f4c433f1e2c3bb6310f5` | Revised 2026-08-16 — hashes updated. Previous rev-3 hash: `a3eef8a80048f25792005b27b2f008a7371f0a302fe9c82787b89ea5afcb569c` |
+
+### Revision 3 — practice already underway (2026-08-16T06:02:30Z) — SUPERSEDED AND RETRACTED
+
+Added, on the operator's instruction, a paragraph and landing-page card describing working delivery models, scalable delivery teams, and a core team that never stops inventing. The operator subsequently ruled this a canon breach (public capacity-claim braggartry, plus a nationality-bounded client reference in the paragraph immediately above it) and instructed that the material be pulled back. Retracted in Revision 4 above. Hashes of the retracted files are preserved in that revision's table for tamper-verification.
 
 Current handbook identity:
 
