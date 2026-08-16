@@ -16,11 +16,11 @@ We call the space **Sovereign** because ownership of the appreciating asset neve
 
 ## Part 0 — EVE, and why Lillian sits at the centre
 
-**EVE** — capital E, V, E — is the research and governance project this handbook belongs to. It exists to free the digital world from institutional lock-in and to place data and decision intelligence back in the hands of the people who generate them. EVE reframes information and technology as a customer-owned reference model with a ledgered spine, portable identity, tested exits, and a return that lands outside the IT column. It is the design pattern from which the Sovereign posture in this handbook is drawn.
+**EVE** stands for **Enterprise Value Engineering**. It is the econometric utility ledger — the extension surface built on top of the ledger structure that most enterprises have already adopted, SAP's ACDOCA and its master-data companions — reaching outwards through Datasphere and any downstream structure the customer chooses to extend into.
 
-EVE, the research project, needs a mother. Lillian is that mother. Across decades of transformational programme management, she has been the operational centre of gravity for sovereign-stack deployment and independent assessment inside client environments. Her practice is the pattern EVE encodes: name the appreciating asset before the charter is signed, mark the return where it actually lands, design for owner-led custody from the first drawing, and hand the keys back on the way out.
+EVE is not anti-SAP. It is not a migration play. It is not third-party support. It is the recognition that the customer already owns a full ledger substrate as a capital asset, and that any competent extension of that substrate — ESG scoring at posting time, human-attribution of profitability, sovereign-AI memory, industry roll-ups — belongs to the customer, on customer-owned infrastructure, under customer-owned copyright. Once the substrate is in the customer's hands, the customer decides freely whether to have SAP manage the surrounding services, one of the other capable firms, or their own team. That is the Sovereign posture. The handbook draws its four claims and its ten principles from that posture.
 
-EVE is the pattern; Lillian is the practitioner in whose lineage the pattern is faithfully carried. This is why the handbook bears her name. Consultants working in EVE work as Lillian works, or they are working on something else.
+Lillian is the practitioner in whose lineage the practice is carried. EVE names the pattern; the handbook bears her name because the practice cannot be counterfeited by copying the paper.
 
 ---
 
@@ -105,6 +105,6 @@ A programme that satisfies all four is Sovereign. A programme that satisfies thr
 
 ## Colophon
 
-Authored in the lineage of Lillian, for the Sovereign practitioner community working inside the EVE research and governance project. Watermarked and content-hashed on export. The reader is free to copy, mirror, and redistribute this document. The practice it describes is not copyable, and the watermark makes tampering legible without preventing use. There is only one Lillian.
+Authored in the lineage of Lillian, for the Sovereign practitioner community working inside Enterprise Value Engineering (EVE) — the econometric utility ledger extending customer-owned SAP/Datasphere substrates. Watermarked and content-hashed on export. The reader is free to copy, mirror, and redistribute this document. The practice it describes is not copyable, and the watermark makes tampering legible without preventing use. There is only one Lillian.
 
 *Pour le bien-être du peuple.*

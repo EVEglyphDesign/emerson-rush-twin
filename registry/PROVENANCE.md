@@ -2,6 +2,33 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
+### Revision 5 — EVE canonicalised (2026-08-16T06:29:30Z)
+
+Correction to the definition of EVE used in Part 0 and on the landing page. The prior revisions summarised EVE as "the research and governance project" — that framing was invented by the agent, not drawn from the record. The canonical definition, in the operator's words and consistent with the doctrine committed under [`eve-datasphere-sovereign`](https://github.com/EVEglyphDesign/eve-datasphere-sovereign) (README and `docs/thesis.md`), is:
+
+> **EVE stands for Enterprise Value Engineering.** It is the econometric utility ledger — the extension surface built on top of the ledger structure most enterprises have already adopted, SAP's ACDOCA and its master-data companions — reaching outwards through Datasphere and any downstream structure the customer chooses to extend into. Once the substrate is in the customer's hands, the customer decides freely whether SAP manages the surrounding services, one of the other capable firms, or their own team.
+
+Corrected in the handbook (Part 0 and the Colophon) and on the landing page (both the EVE card and the Part 0 summary). See defect record `EgD-SIN-R-2026-08-16` in the boot-contract registry.
+
+Current handbook identity:
+
+- Key ID — `EgD-KEY-2026-07`
+- Content fingerprint (pass-2 body, printed in each footer) — `04fa6ee899531642b6e502ffba846637749035d8778539dfa8bb9b7bc4dfaaad`
+- File SHA-256 (pass-3 stamped artifact) — `ada4df31db5b665cdaaeb808ac034677d4887c87d58f202d0958cc6b9bdb5531`
+- Pages — 5 · Format — US Letter · Fonts — Fraunces, Inter
+- Watermark — EVEglyphDesign, diagonal, low-opacity, every page
+- Closing mark — *Pour le bien-être du peuple*
+
+| Local path | SHA-256 | Kind |
+|---|---|---|
+| `index.html` (repo root) | `777a0084bfec3f280a440fce1ec46f0c57c200f422fe8f0504f15394568d80b3` | Modified — landing page updated for the third mirror |
+| `mirror-3/www.emersonrush.com/index.html` | `1323baa22952a420dfd424e35f3772f6105724278cf62f0fbebf99e38e993dc3` | Modified — third-mirror overlay banner injected |
+| `mirror-3/www.emersonrush.com/about-us/index.html` | `1546960c1a1359c43032a06bcacc6c8a3d1eaf97d22d303fff4f0e4705839b1c` | Modified — third-mirror overlay banner injected |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `6a49347dc6a3891770970e52a35db3eec32b5dbaf62fe9fa6f35e70c38377f47` | Revised 2026-08-16 — EVE canonicalised. Previous rev-4 hash: `da971c399a5a9abef0596b0501789a7b7a379595dedcac2bcf12a60b1ced5e46` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `ada4df31db5b665cdaaeb808ac034677d4887c87d58f202d0958cc6b9bdb5531` | Revised 2026-08-16 — Part 0 rewritten with canonical EVE definition. 5 pages. Previous rev-4 hash: `d0822b6e55ef1e17141dd7828fd09e631c4265fdaffcb23ac4cb890f0fb526b4` |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `61ea5a88e5bba9adb3bf61a82c3ec5679c823fae2ea6b3730c7edbeb70f894e5` | Revised 2026-08-16 — Part 0 and Colophon rewritten. Previous rev-4 hash: `39e3ac007007d8e843dddeec9d7bd03d36fe1449ee81f703c583b9c657e72632` |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `d185adec76322128ebbfa0206886c287836de54b5cc7b3d7ddf81c79f23be299` | Revised 2026-08-16 — hashes updated. Previous rev-4 hash: `16d6930752d3d8c412679439987151cedeb92702a8c8f4c433f1e2c3bb6310f5` |
+
 ### Revision 4 — retraction (2026-08-16T06:15:34Z)
 
 Operator instruction: pull back the material that named a client segment by nationality ("Swedish private-equity-run portfolio companies") and the material that made public claims about delivery capacity ("working delivery models with a presentation layer", "scalable delivery teams", "a core team that never stops inventing"). Both breached canon:
