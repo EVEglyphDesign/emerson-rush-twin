@@ -2,6 +2,31 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
+### Revision 8 — landing page rewritten around Lilian's practitioner card, order reset (2026-08-16T14:05:00Z)
+
+The landing page had drifted into an artsy-fartsy register that led with EVE and put Lilian's practitioner material below the fold. The operator identified the drift and set the correction: Lilian is an enterprise transformation consultant, not an SAP consultant; her published practitioner profile has to be the anchor of the page, and EVE / ACDOCA / SAP is technological grounding that sits *below* her practice — not above it.
+
+The landing page (`index.html`) is rewritten in the following order, with no changes to the handbook PDF or the NDA PDF this rev:
+
+1. **Lilian Corvington — the practitioner** card at the top of the page (accent-left, leading card), carrying her published position (Global Business Transformation Program Director, IKEA contract; Senior Director, Business Transformation, ERP & Digital Consulting), her specialisation (SAP S/4HANA migrations, SAP IS-Retail / F&R / CAR, Oracle Cloud ERP, Ariba procurement, shared-services near/off-shoring, supply-chain optimisation, post-merger integration), her credentials (CISA, Master in Business Transformation from the Global SAP Transformation Academy), her tag cloud, and her LinkedIn URL. Language is copied faithfully from the practitioner card already published in [`mirror-2/www.emersonrush.com/expertise/`](https://github.com/EVEglyphDesign/emerson-rush-twin/blob/main/mirror-2/www.emersonrush.com/expertise/index.html) — the sovereign lane where practitioner material for this engagement already lives.
+2. **The handbook** section — one paragraph describing what the paper is, followed by the primary download button.
+3. **What the handbook contains** — the four Part cards (I – IV), unchanged in content from rev 7.1. Part 0 is removed as a landing-page card because its material (EVE / ACDOCA / Datasphere) has moved down the page into a dedicated *Technological grounding* section.
+4. **Technological grounding** — EVE, Enterprise Value Engineering, on the SAP foundation. Pro-SAP position, ACDOCA / Datasphere framing, *customer success is SAP success* stated in SAP's own frame. Below the four Part cards, not above them, because on the landing page EVE is the *why* underneath Lilian's practice, not the frame the reader meets first.
+5. **Before the first conversation** — the mutual, plain-language NDA card, followed by the NDA download button as the secondary CTA. The NDA fingerprint on the page is corrected in this rev from the stale `596d5e21…` value inherited from a prior rev to the actual on-disk hash `7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c`. That was a pre-existing defect the last rev did not catch; corrected here so the ledger and the surface agree.
+
+No tonal or substantive change to the handbook PDF, the NDA PDF, or the handbook source markdown. This rev touches the landing page only.
+
+Updated identity:
+
+- Landing page SHA-256 — `152df73994681148c838adf00cce3df510391305fa14e18f746213944c4621d0`
+- Handbook PDF SHA-256 — `9c4e1c32c90be875bf6a629d0a9c746f5f5e97df735e8504f4a8931259a000bc` (unchanged from rev 7.1)
+- Handbook source SHA-256 — `e593ff682d4fa97dd5881586026c8e601f0fa17e723aee1424b16eeadf6ace3e` (unchanged from rev 7.1)
+- NDA PDF SHA-256 — `7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c` (unchanged since rev 6)
+
+Prior rev-7.1 landing page `3a6a21c10cac1981f6f14ddc639f78cd8e7aedaa86c62674b6b28273fde98ec4` is preserved in the commit history at [`ebcb206`](https://github.com/EVEglyphDesign/emerson-rush-twin/commit/ebcb206) for tamper-verification.
+
+One retrieval-waste defect is logged against the agent in the same session: the practitioner material for Lilian, Tobias, and Dany was already published inside this same repository at [`mirror-2/www.emersonrush.com/expertise/`](https://github.com/EVEglyphDesign/emerson-rush-twin/blob/main/mirror-2/www.emersonrush.com/expertise/index.html), and the agent asked the operator to paste Lilian's LinkedIn material instead of reading the mirror-2 overlay first. Defect [`EgD-SIN-R-2026-08-16-003`](https://github.com/EVEglyphDesign/eve-glyph-boot-contract/blob/main/registry/SIN-DEFECTS.md) — class **R** (retrieval waste) escalated by class **I** (interrupt over a rung-2 fact) — recorded in the boot-contract sin register at commit [`b6719f0`](https://github.com/EVEglyphDesign/eve-glyph-boot-contract/commit/b6719f0). The standing rule that defect establishes: *when the operator points at a practitioner, the first read is always `gh search code --owner EVEglyphDesign "<surname>"`, then the mirror repository for the engagement they belong to.*
+
 ### Revision 7.1 — closing mark reduced to one instance in the Colophon (2026-08-16T07:41:51Z)
 
 The closing mark *Pour le bien-être du peuple* was appearing on every page (in the footer, in accent-orange italic) and twice in the source (end of Part IV and end of the Colophon). The operator identified the repetition as a defect: the phrase is his signature on the record, once, and stamping it across every page treats it as Lillian's motto — which it is not, and which pre-empts any phrase Lillian might choose for herself. The phrase now appears in exactly one place: the closing line of the Colophon on page 5. The every-page footer carries only the copyright line, the generation timestamp, the truncated content hash, and the page number. The Part IV closing repetition is removed.
