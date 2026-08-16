@@ -2,6 +2,30 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
+### Revision 6 — consultation NDA added (2026-08-16T06:40:41Z)
+
+Added a downloadable **Consultation Confidentiality &amp; Referral Undertaking** — a mutual, plain-language NDA for a first working conversation — to the [`lillians-guide/`](https://eveglyphdesign.github.io/emerson-rush-twin/mirror-3/www.emersonrush.com/lillians-guide/) surface. Same URL slot, secondary CTA below the handbook download.
+
+The operative clause: any advice the Consultant gives during consultation is the Client's to keep, act on, share, or hand to another firm to execute, whether or not the Consultant is retained. Referrals from the network are free and standing — no commission accepted, no clock on when the Client can come back for one. If a Client is ever in trouble on a matter within the Consultant's competence, the initial call is free, whether or not there was ever an engagement.
+
+The canon-compliant PDF builder was extended in this revision to render markdown `[text](url)` as ReportLab `<link>` tags (orange, underlined). This addresses a canon breach in the initial NDA build where a markdown link rendered as raw syntax on the page. The extension is now in the shared builder pattern and applies to any future canon PDF that carries a link.
+
+Current NDA identity:
+
+- Key ID — `EgD-KEY-2026-07`
+- Content fingerprint (pass-2 body, printed in each footer) — `596d5e21a52d79c2a1120f7eefbd0ee341906834ca19782b0380ee049c5168eb`
+- File SHA-256 (pass-3 stamped artifact) — `7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c`
+- Pages — 4 · Format — US Letter · Fonts — Fraunces, Inter
+- Watermark — EVEglyphDesign, diagonal, low-opacity, every page
+- Closing mark — *Pour le bien-être du peuple*
+
+| Local path | SHA-256 | Kind |
+|---|---|---|
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `bb7101329ef44bbda26d3e5f38057b38c29177bf9153cfa50b809113c4e98c1b` | Revised 2026-08-16 — NDA card and secondary download added. Previous rev-5 hash: `6a49347dc6a3891770970e52a35db3eec32b5dbaf62fe9fa6f35e70c38377f47` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Consultation_NDA.pdf` | `7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c` | New 2026-08-16 — mutual, plain-language consultation NDA. 4 pages |
+| `mirror-3/www.emersonrush.com/lillians-guide/nda_source.md` | `801b51b3bd1a10278af28acf10f1c64a2a48c83de7bfcea9ee430448a411e9c2` | New 2026-08-16 — markdown source of the NDA |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE-NDA.txt` | `05ab9975f3f9c1408dffdeed19eca8deba51b965d59469207c7e0b66a1fe4161` | New 2026-08-16 — local provenance manifest for the NDA |
+
 ### Revision 5 — EVE canonicalised (2026-08-16T06:29:30Z)
 
 Correction to the definition of EVE used in Part 0 and on the landing page. The prior revisions summarised EVE as "the research and governance project" — that framing was invented by the agent, not drawn from the record. The canonical definition, in the operator's words and consistent with the doctrine committed under [`eve-datasphere-sovereign`](https://github.com/EVEglyphDesign/eve-datasphere-sovereign) (README and `docs/thesis.md`), is:

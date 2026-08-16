@@ -1,0 +1,11 @@
+Consultation NDA — provenance manifest
+file: Consultation_NDA.pdf
+pages: 4
+generated_utc: 2026-08-16T06:40:41Z
+key_id: EgD-KEY-2026-07
+footer_hash: 596d5e21a52d79c2a1120f7eefbd0ee341906834ca19782b0380ee049c5168eb  (pass-2 body; footers show a truncated form of this value)
+final_sha256: 7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c
+note: The pass-2 hash printed in the footer is a stable content fingerprint;
+the file itself has a different final_sha256 because pass 3 stamps the footer.
+Tampering with the PDF changes final_sha256; the printed pass-2 hash remains the
+authoritative content fingerprint recorded here and in registry/PROVENANCE.md.
