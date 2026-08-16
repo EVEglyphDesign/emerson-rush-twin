@@ -1,5 +1,31 @@
 # Provenance ledger — Emerson Rush mirror
 
+## Third mirror — Lillian's Guide (canon, 2026-08-16)
+
+Canon timestamp (UTC): `2026-08-16T05:36:58Z`  
+Third-mirror root: `mirror-3/www.emersonrush.com/`  
+Method: copy of the first mirror + two modified files (home banner, about-us banner) + one new page (`lillians-guide/index.html`) + a canon PDF handbook, its markdown source, and a local provenance manifest.  
+Authorship: the handbook is EVEglyphDesign copy, not Emerson Rush copy — it is flagged as an overlay in-page, in the banner, and here. All other files under `mirror-3/www.emersonrush.com/` are unchanged copies of the first mirror and inherit its hashes.
+
+Handbook identity:
+
+- Key ID — `EgD-KEY-2026-07`
+- Content fingerprint (pass-2 body, printed in each footer) — `8ad8f5d60b40e617d69adf13d33cb9ee4f1cb34f8b66600f35c9ee746a3a6059`
+- File SHA-256 (pass-3 stamped artifact) — `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc`
+- Pages — 4 · Format — US Letter · Fonts — Fraunces, Inter
+- Watermark — EVEglyphDesign, diagonal, low-opacity, every page
+- Closing mark — *Pour le bien-être du peuple*
+
+| Local path | SHA-256 | Kind |
+|---|---|---|
+| `index.html` (repo root) | `777a0084bfec3f280a440fce1ec46f0c57c200f422fe8f0504f15394568d80b3` | Modified — landing page updated for the third mirror |
+| `mirror-3/www.emersonrush.com/index.html` | `1323baa22952a420dfd424e35f3772f6105724278cf62f0fbebf99e38e993dc3` | Modified — third-mirror overlay banner injected |
+| `mirror-3/www.emersonrush.com/about-us/index.html` | `1546960c1a1359c43032a06bcacc6c8a3d1eaf97d22d303fff4f0e4705839b1c` | Modified — third-mirror overlay banner injected |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `43de87015db2683f2984d83a0dd08a20b940e4b8db60a3d2c05bab342d5a604a` | New — Lillian's Guide download surface |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `0c98bcb8026c0e21105f5de647285643715c3204aca723b35d60c6adfc9d62dc` | New — Lillian's Guide handbook (canon PDF, 4 pages, watermarked & hashed) |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `781aef0a53b92e12f0fdbb490011200f356d1bb2974bfe468c3b6561afc8958e` | New — canonical markdown source for the handbook |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `ff8dac00de360aedf89a36d6e40bb2beca3274ead9627c5f38d58a0445a3165e` | New — local provenance manifest for the PDF |
+
 ## Second mirror (overlay, 2026-08-14)
 
 Overlay timestamp (UTC): `2026-08-15T00:29:01Z`  
