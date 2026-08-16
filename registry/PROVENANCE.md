@@ -2,6 +2,35 @@
 
 ## Third mirror — Lillian's Guide (canon, 2026-08-16)
 
+### Revision 7 — tonal rewrite in Lillian's voice, PAIX Part IV in field register, pro-SAP position restored (2026-08-16T07:31:30Z)
+
+Full tonal rewrite of the handbook body in the softer, descriptive register Lillian actually uses — principles renamed as habits, combative claim-language replaced with observations, the closing slogan “There is only one Lillian” removed from the Part I claim, from the Colophon, and from the front-page meta line in the builder. The word **Sovereign** is retained — explicitly — as the technical and copyright term it was designed to be: Lillian is named as *the Sovereign* of the practice, the reader is named as *the ruler of their sovereign data*, and the running subtitle “The Sovereign practitioner canon” is preserved on the front page.
+
+Part 0 reframed on SAP. The previous “not anti-SAP” posture was defensive and did not reflect the operator's position. The corrected framing is explicit: **EVE is pro-SAP. SAP is the foundation.** Where commentators argue SAP is no longer relevant in the age of generative AI and sovereign data, the practice holds the opposite position — more strongly than the marketing does — because the reason the work is possible at all is that the customer already owns a full ledger substrate in ACDOCA and Datasphere. **Customer success is SAP success** — SAP's own frame — does the work in the paragraph; the earlier draft's implication that customer success mattered because it funded further SAP purchases was retracted before commit as an insult to SAP the operator would not put his name to.
+
+Part IV (PAIX) rewritten in the field register the operator asked for: *going to where people are, rather than waiting for them to become customers*, and *staying with people after the engagement ends*. The passage names the concrete arc — tools that used to live inside expensive enterprise stacks are now within reach of anyone with a browser, so a practitioner can help the people in the communities they live in even when those communities will never be customers; and career recovery long after the original client engagement has ended is part of what the practice is *for*, not an aside. *Pro bono humanitatis* opens the section; *Pour le bien-être du peuple* closes it.
+
+The previously uncommitted “two-threads” Part IV (rev-6-uncommitted, PDF `6e49b823f64fb094de194fe8a1c0c1aeb4d0e4d8aeaa35d3b0854a162131fa0d`, on-disk 07:16:06Z) is superseded and is preserved in local backups at `/tmp/lillian_backups/Lillians_Guide.20260816T072348Z.pdf` for rewind, not as canon.
+
+One durability defect is logged against the agent in the same session: reference images (circles, triangles, the visual grammar of EgD) uploaded by the operator across multiple sessions have not been persisted into any repository, so subsequent sessions cannot find them. The A-glyph placeholder in [`eve-glyph-education/docs/a-glyph-design.md`](https://github.com/EVEglyphDesign/eve-glyph-education/blob/main/docs/a-glyph-design.md) is currently the only durable design-language home for the triangle/Apex/sphere material, and it explicitly says “Full design specification to follow.” The visual grammar review is deferred to the daytime review with Lillian on 2026-08-16 with the reference images in hand. Defect class **D** — durability — recorded in the boot-contract [`SIN-DEFECTS.md`](https://github.com/EVEglyphDesign/eve-glyph-boot-contract/blob/main/registry/SIN-DEFECTS.md).
+
+Current handbook identity:
+
+- Key ID — `EgD-KEY-2026-07`
+- Content fingerprint (pass-2 body, printed in each footer) — `43568418250bc3256f9277c8c234689937919564554ef84df4d69f19dbc1a1b7`
+- File SHA-256 (pass-3 stamped artifact) — `171fe5ef07ab37ab149d572d943e8a89a5c44ceda7a58a7b46f9e8fde897a3d6`
+- Pages — 5 · Format — US Letter · Fonts — Fraunces, Inter
+- Watermark — EVEglyphDesign, diagonal, low-opacity, every page
+- Closing mark — *Pour le bien-être du peuple*
+
+| Local path | SHA-256 | Kind |
+|---|---|---|
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `6e4898f449db4e2f85f0070c2481f2178980cf35f0b6dc7b12d82db07e37e27c` | Revised 2026-08-16 — full tonal rewrite; pro-SAP framing; PAIX Part IV in field register |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `171fe5ef07ab37ab149d572d943e8a89a5c44ceda7a58a7b46f9e8fde897a3d6` | Revised 2026-08-16 — 5 pages. Previous rev-5 PDF hash: `ada4df31db5b665cdaaeb808ac034677d4887c87d58f202d0958cc6b9bdb5531` |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `b3d11e8b837f8f5149985a8620b5160226a9146df53143b77c4dedfa54d9c0a1` | Revised 2026-08-16 — EVE card and Parts I–IV cards rewritten in the softer register; SAP framing corrected. Previous rev-6 hash: `bb7101329ef44bbda26d3e5f38057b38c29177bf9153cfa50b809113c4e98c1b` |
+
+The NDA is unchanged from Revision 6 and remains canon at `7d6ab1a5e265c62c6e3f29ef8caff6fd8e865f1c32b74b3d061bf00d796cee8c`.
+
 ### Revision 6 — consultation NDA added (2026-08-16T06:40:41Z)
 
 Added a downloadable **Consultation Confidentiality &amp; Referral Undertaking** — a mutual, plain-language NDA for a first working conversation — to the [`lillians-guide/`](https://eveglyphdesign.github.io/emerson-rush-twin/mirror-3/www.emersonrush.com/lillians-guide/) surface. Same URL slot, secondary CTA below the handbook download.

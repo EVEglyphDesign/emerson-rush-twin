@@ -1,16 +1,14 @@
 # Lillian's Guide
 
-## Transformational program management for information & technology
+## Transformational program management for information &amp; technology
 
 ### The Sovereign practitioner canon
 
 ---
 
-**Foreword.** There has never been a moment in the history of enterprise like this one. The information and technology function, for decades a service centre carrying depreciation and operating expense, is quietly becoming the balance-sheet event of the century. Systems of record, data platforms, sovereign models and the operating discipline that governs them are, for the first time, being capitalised at scale — and the return on that capitalisation lands not inside the IT column of the ledger, but everywhere else in the company. This is the definition of a strategic asset: it appreciates the space around it.
+**Foreword.** Something has changed in the way enterprises hold their information and technology function, and it changed more quickly than most of the industry has noticed. What used to be a service centre, carrying depreciation and operating expense, is coming to be held on the same terms as any other capital asset a firm might own. The systems of record, the data platforms, the models that reason over them, and the operating rituals around them — when they are built with provenance and portability and a rate of appreciation that can be measured — behave, on the ledger and in the boardroom, like the appreciating property they in fact are. The return on that property lands, as with any well-placed capital, in the parts of the business that are not IT: in receivables, in inventory, in cycle time, in the confidence of a regulator.
 
-That appreciation does not happen because a technology was purchased. It happens because a practitioner presided over the transformation with a specific kind of authority — the authority of someone who has done it, in the room, for decades. Lillian is that authority. This handbook is her canon, published so the practitioners who choose to work in her lineage have something durable to practise from.
-
-We call the space **Sovereign** because ownership of the appreciating asset never leaves the client. The consultant enters, structures the appreciation, hands the keys back, and departs. Lillian rules the practice; the client rules the asset.
+This is a handbook for practitioners who have decided to work in that way. It is written in the lineage of **Lillian**, who is *the Sovereign* of this practice — the word used the way it was designed to be used, as a piece of the design language of EVE Glyph Design and part of its copyright. The reader is not a bystander in that arrangement. The reader is **the ruler of their sovereign data**. Those are two different offices, and neither is a metaphor. The handbook is offered without ceremony; the reader is free to copy it, mirror it, and pass it along.
 
 ---
 
@@ -18,93 +16,85 @@ We call the space **Sovereign** because ownership of the appreciating asset neve
 
 **EVE** stands for **Enterprise Value Engineering**. It is the econometric utility ledger — the extension surface built on top of the ledger structure that most enterprises have already adopted, SAP's ACDOCA and its master-data companions — reaching outwards through Datasphere and any downstream structure the customer chooses to extend into.
 
-EVE is not anti-SAP. It is not a migration play. It is not third-party support. It is the recognition that the customer already owns a full ledger substrate as a capital asset, and that any competent extension of that substrate — ESG scoring at posting time, human-attribution of profitability, sovereign-AI memory, industry roll-ups — belongs to the customer, on customer-owned infrastructure, under customer-owned copyright. Once the substrate is in the customer's hands, the customer decides freely whether to have SAP manage the surrounding services, one of the other capable firms, or their own team. That is the Sovereign posture. The handbook draws its four claims and its ten principles from that posture.
+EVE is pro-SAP. SAP is the foundation. There are commentators who argue that SAP is no longer relevant in the age of generative AI and sovereign data; we hold the opposite position, and hold it more strongly than the marketing does. The reason the work in this handbook is possible at all — attribution of profitability to the people who made it happen, ESG signals recorded at posting time, sovereign-AI memory over the customer's own data, industry roll-ups that actually reconcile — is that the customer already owns a full ledger substrate in ACDOCA and Datasphere. Nothing else in the market gives an enterprise that starting point.
 
-Lillian is the practitioner in whose lineage the practice is carried. EVE names the pattern; the handbook bears her name because the practice cannot be counterfeited by copying the paper.
+Customer success is SAP success. That is SAP's own frame, and it is the right one. Our task is to help SAP's customers get more out of the capital investment they have already made, in SAP and in whatever else serves them, so that the value shows up on the customer's ledgers where it belongs. Once the substrate is understood as the customer's own capital, the customer decides freely how the surrounding services are provided — by SAP, by one of the other capable firms, or by their own team.
 
----
-
-## Part I — The four claims
-
-**Claim 1. Information and technology is now a capital asset, not a cost centre.**
-The line items that used to be expensed — data pipelines, reference models, evaluation harnesses, the operating rituals around them — behave like capitalisable investments when they are built with provenance, portability, and a measurable rate of appreciation. Treat them as such in the ledger and in the boardroom.
-
-**Claim 2. The return on the IT capital asset is realised outside IT.**
-A well-structured data spine reduces working capital in finance, shortens cycle time in operations, retains customers in commercial, and de-risks disclosure in legal. If the return is measured only inside the IT function, the asset is being under-recognised by an order of magnitude. The programme manager's first job is to name the beneficiaries and mark the return where it actually lands.
-
-**Claim 3. The asset only appreciates when it is owner-led.**
-Rented systems, black-box vendors and un-portable data do not appreciate — they depreciate on someone else's timetable. The Sovereign posture insists that the client owns the model of their own enterprise, owns the reference data, owns the evaluation set, and owns the exit. The consultant's role is stewardship, never tenancy.
-
-**Claim 4. There is only one Lillian.**
-The practices in this handbook are hers. They are published here so that consultants who practise them may do so faithfully, and so that clients may recognise the difference between the practice and the imitation. Copy this document freely; the practice itself is not copyable, and that is the point.
+Lillian is the practitioner in whose lineage the work is carried. EVE names the pattern; the handbook bears her name because the way she practises is what makes the pattern land.
 
 ---
 
-## Part II — Ten principles for the transformational programme manager
+## Part I — What is actually the case
 
-1. **State the appreciating asset before the programme charter is signed.**
-   Name the specific IT balance-sheet item the programme is here to appreciate. If the item cannot be named in one line, the programme is not yet ready to start.
+Four observations. Each is the kind of thing that becomes obvious once seen, and difficult to unsee.
 
-2. **Mark the return outside the IT column.**
-   For every million of programme cost, identify where the compensating million-plus of return will land — receivables, inventory, contribution margin, cost-to-serve, risk-weighted capital. Publish that map on day one.
+**Information and technology has become a capital asset.** The line items that used to be treated as operating expense — data pipelines, reference models, evaluation harnesses, and the disciplined rituals around them — behave, when they are built with provenance and portability, like assets that appreciate. Held that way, they show up on the balance sheet the way other durable assets do, and they are managed accordingly.
 
-3. **Design for owner-led custody from the first architecture drawing.**
-   Data models, keys, secrets, evaluation sets and orchestration definitions live in the client's repository under the client's identity provider. No exception survives review.
+**The return on that asset is realised elsewhere.** A well-structured data spine tends to reduce working capital in finance, shorten cycle time in operations, retain customers in commercial, and calm the disclosure conversation in legal. When the return is booked only inside the IT column, the asset is under-recognised, sometimes by an order of magnitude. Naming where the return actually lands, and marking it there, is a large part of what a good programme manager does.
 
-4. **Separate the mirror from the analysis.**
-   The system of record is captured faithfully; the analytic overlay lives alongside it, labelled. A programme that quietly rewrites the source has failed a governance test that no steering committee will catch until it is too late.
+**The asset appreciates when it is owner-led.** Rented systems and un-portable data appreciate on someone else's timetable, which is another way of saying they don't appreciate for the owner at all. When the customer holds the model of their own enterprise, the reference data, the evaluation set, and a tested exit, the asset compounds in the customer's hands. The consultant's role, when this is understood, becomes stewardship rather than tenancy — which is a healthier arrangement for both sides of the table.
 
-5. **Cheapest source first.**
-   In every retrieval, every decision, every escalation — work down the ladder. Session context, memory, the wiki, the repository, one targeted fetch, and only then a broad search. The programme's burn rate is a first-class metric, reported alongside schedule and scope.
-
-6. **Provenance is a delivery, not a footnote.**
-   Every artifact carries the hash, the timestamp, the author, the key ID, and the source lineage. Artefacts without provenance are drafts, regardless of how polished they look.
-
-7. **The interrupt threshold sits at the boundary of expensive spend.**
-   Free and cheap actions proceed without asking. Expensive actions — new vendors, new environments, generation runs, subagent fan-outs, capital commitments — pause for a written justification and a cheaper alternative. Interruptions on free actions are themselves defects.
-
-8. **Symmetric effort.**
-   The visible effort of the programme is proportionate to the value of the answer. A slow answer that took real work reads as diligence; a slow answer that took no work reads as billing. The distinction must be legible to the client at all times.
-
-9. **Two exits, always.**
-   Every capitalised system carries a documented, tested exit to at least two alternatives. A Sovereign asset is one the client could walk away from on a Tuesday morning and still operate on Wednesday. If the exit is not tested, it does not exist.
-
-10. **Publish the practice, keep the discretion.**
-    The method is public so it can be judged. The client's specifics remain private. A consultancy that hides its method is protecting fees; a consultancy that leaks client specifics is protecting nothing.
+**The practice is portable; the practitioner is not.** The methods in this handbook can be written down, and are. Written down, they can be studied, and are meant to be. But the judgement to know when to apply which method, and when to hold back and listen, comes from the person doing the work. That is why the handbook carries a name. It is not a claim about uniqueness; it is a note about where the practice actually lives.
 
 ---
 
-## Part III — The Sovereign posture
+## Part II — How the work is done
 
-Sovereignty in this handbook is not a marketing word. It is a specific arrangement of custody, authority and exit, and it can be checked against a client environment in an afternoon.
+There is a small handful of habits that, taken together, describe most of what a programme manager working in this lineage will do in the course of an ordinary week. They are habits, not rules, and they are offered so a practitioner can recognise them when the situation calls for them.
 
-- **Custody.** The data, the models, the keys and the orchestration definitions are stored where the client controls them, under identities the client provisions.
-- **Authority.** Approvals, promotions and material changes are signed by client staff, not by consultants. Consultants recommend; owners decide.
+**Naming the appreciating asset before the charter.** A programme that cannot name, in one line, the specific IT balance-sheet item it is here to appreciate is not yet ready to start. The naming exercise is short — an afternoon, sometimes an hour — and it saves months of drift later.
+
+**Marking the return where it lands.** For every million a programme spends, there is a compensating figure that will show up somewhere else in the business, and it is worth taking the time to say where before the work begins. Receivables, inventory, cost-to-serve, risk-weighted capital. Published on day one, that map becomes the honest scoreboard the programme is judged against.
+
+**Owner-led custody, from the first drawing.** Data, keys, evaluation sets, and orchestration definitions belong in the customer's repository, under the customer's identity provider, from the first architectural sketch. Designing this in later is much harder than designing it in from the start.
+
+**Keeping the mirror separate from the analysis.** The system of record is captured faithfully; the analytic overlay lives alongside it, and is labelled as such. A programme that quietly rewrites the source is one that has failed a governance test no steering committee will catch until it is too late.
+
+**Working from the cheapest source that answers.** Session context, memory, the wiki, the repository, and then, only if those have not produced what is needed, a targeted search. The programme's burn rate is a metric like any other, reported alongside schedule and scope.
+
+**Treating provenance as a delivery.** Every artifact carries its hash, its timestamp, its author, its key ID, and its source lineage. Without those, an artifact is a draft, however polished it looks on the page.
+
+**Interrupting the sponsor only at the boundary of expensive spend.** Free and cheap actions proceed. Expensive actions — new vendors, new environments, generation runs, capital commitments — pause for a written justification and a cheaper alternative. Sponsors appreciate not being pinged over nothing.
+
+**Making the effort visible.** A slow answer that took real work reads as diligence; a slow answer that took no work reads as billing. The distinction is worth making legible in the moment, so the sponsor is not left to guess.
+
+**Two exits, tested.** Every capitalised system has a documented, rehearsed exit to at least two alternatives. A customer who could walk away on a Tuesday morning and still operate on Wednesday is holding an asset in the full sense of the word.
+
+**Publishing the method, keeping the discretion.** The method is public so it can be judged and improved. The customer's specifics stay private. That is the arrangement.
+
+---
+
+## Part III — What "Sovereign" means, precisely
+
+Sovereign, in this handbook, is a technical word. It describes a specific arrangement that can be checked against a customer's environment in an afternoon, without argument.
+
+- **Custody.** The data, the models, the keys, and the orchestration definitions are stored where the customer controls them, under identities the customer provisions.
+- **Authority.** Approvals, promotions, and material changes are signed by customer staff. Consultants recommend; owners decide.
 - **Exit.** A tested route to at least two alternative platforms or vendors exists for every capitalised layer. Exit is rehearsed, not merely written.
 - **Return.** The financial benefit of the appreciation is booked outside the IT function, on the ledgers where it is actually realised, and reviewed on the same cadence as any other capital asset.
 
-A programme that satisfies all four is Sovereign. A programme that satisfies three is a good programme with a specific vulnerability that should be named. A programme that satisfies fewer than three is not yet a transformation; it is an outsourcing arrangement wearing a transformation's clothes.
+A programme that satisfies all four is Sovereign in this sense. A programme that satisfies three is a programme with a specific vulnerability worth naming and, if the customer wishes, closing. A programme that satisfies fewer is a different kind of arrangement, and is best called by its ordinary name.
 
 ---
 
-## Part IV — The practitioner's oath
+## Part IV — PAIX, and the wider work
 
-> I will name the appreciating asset before I sign the charter.
+*Pro bono humanitatis.*
 
-> I will mark the return where it actually lands.
+**PAIX** is the French word for peace, and the name we use for the wider work — the part of the practice that sits above any individual client engagement. Most of what a practitioner in this lineage does in an ordinary year happens here. Two habits are worth describing.
 
-> I will design for the client's custody, authority, and exit.
+**Going to where people are, rather than waiting for them to become customers.** The tools that used to take a room full of confusion and turn it into a clear set of requirements lived, for a long time, inside expensive enterprise stacks. To use them at all, one needed a customer, a licence, a project. That is no longer quite true. The tools now within reach of anyone with a browser can do a great deal of what those stacks did at the requirements stage. So there is nothing that keeps a practitioner from taking those tools into the communities they live in and helping the people there use them well — whether or not those communities will ever be customers of the practice. When a larger commercial system does eventually arrive, the requirements have been thought through, the vocabulary has been agreed, and the people who will run it already know what they are running. That is the work; it does not need to be called anything else.
 
-> I will state my burn rate before I spend.
+**Staying with people after the engagement ends.** Client relationships come and go on their own schedule. The people met inside those relationships remain, in a quieter way, part of the practice. When a career needs a hand at recovery, we help. When a call comes in with something difficult, long after the original engagement is closed, we take the call. This is why the referral network is offered freely and stays offered, and why a first consultation can honestly say that anything useful said in the room is the client's to keep.
 
-> I will publish my method and protect the client's specifics.
+The habit, taken together, is a habit of adding — a method, a tool now within reach, a name to call, a competent hand held out at the right moment. Where we can add, we add. Where we cannot, we say so, and we point to someone who can.
 
-> I will practise as Lillian practises, because there is only one Lillian, and the honour of the lineage is that it can be recognised.
+*Pour le bien-être du peuple.*
 
 ---
 
 ## Colophon
 
-Authored in the lineage of Lillian, for the Sovereign practitioner community working inside Enterprise Value Engineering (EVE) — the econometric utility ledger extending customer-owned SAP/Datasphere substrates. Watermarked and content-hashed on export. The reader is free to copy, mirror, and redistribute this document. The practice it describes is not copyable, and the watermark makes tampering legible without preventing use. There is only one Lillian.
+Written in the lineage of Lillian, for practitioners doing the work of Enterprise Value Engineering — the econometric utility ledger extending customer-owned SAP and Datasphere substrates. Watermarked and content-hashed on export. The reader is free to copy, mirror, and redistribute this document; the watermark makes tampering legible without preventing use.
 
 *Pour le bien-être du peuple.*
