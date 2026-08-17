@@ -2,30 +2,48 @@ Lillian's Guide — provenance manifest
 Mirror 3 · Peer-review canon
 
 file:            Lillians_Guide.pdf
-pages:           8
-generated_utc:   2026-08-17T02:25:43Z
+pages:           12
+generated_utc:   2026-08-17T02:48:16Z
 key_id:          EgD-KEY-2026-07
 doc_id:          EgD-HANDBOOK-M3
-version:         rev 7
-final_sha256:    2aefc4712dd9577fe40745a65c04da2766d7a3253d4d422b61f5e00f08f03d77
-source_sha256:   c9f2f562a8340919c215ba91088a4bdf4cff3f52b9409ff3c175854e5f37db8a
+version:         rev 8
+final_sha256:    f41c143811959f6a12c99b8584fbb8bc794d1ec2babd751412f64d3326cbdbe9
+source_sha256:   bd37c2288356b61dbb2cd4daa9a77e7b67a951825c5cadf662c2bc02603fec9e
 companion:       Mirror-4 Lillian's Guide (Group Platforms revision)
-                 EgD-HANDBOOK-M4 rev 10
-                 sha256 67ab140502c0c92ddee91a0e981f97cc4a9472c3c69c5337d788dc3e3162e4e8
+                 EgD-HANDBOOK-M4 rev 11
+                 sha256 88e182ade1fc20c48c0f025edbc7ac4c93eb4906d7d64c4a5434c90946c4b12f
 
 content_notes:
-  rev 7 folds three additions into the peer-review canon:
-    - Part IV — The AI impact adaptations (OpEx inside the ERP estate,
-      CapEx inside the sovereign domain, PMO and business-case
-      quantification from source data).
-    - Part V — The Discovery AI tool (four ordered functions of the
-      assessment layer named as a thing to be built, measured, and
-      handed over).
-    - Author's note — a calibration line (self-correction preserved
-      as the outcome/entry-point/delivery discipline the handbook is
-      measured against).
-  Parts I–III preserved verbatim from rev 6; PAIX (Part IV in rev 6)
-  renumbered to Part VI without textual change; Colophon preserved.
+  rev 8 adds Part VI — The SAP AI landscape, and where the sovereign
+  practice sits on it — the fuller peer-review companion to the
+  mirror-4 SAP AI section, in four numbered subsections:
+    1. What SAP is currently naming — Joule as the umbrella experience,
+       Joule Assistants / Agents / Studio / Developers, SAP AI Core,
+       SAP Business AI; and the data-and-reasoning layer beneath it,
+       with SAP Business Data Cloud as umbrella and SAP Datasphere
+       named by SAP as its knowledge core alongside SAP Knowledge
+       Graph, SAP HANA Cloud, SAP Databricks, SAP Analytics Cloud,
+       Data Marketplace, and the generative-AI hub inside SAP AI
+       Foundation.
+    2. The renaming trail — AI Business Services → AI Core → AI
+       Launchpad → AI Foundation → Business AI → the Joule family →
+       Business Data Cloud absorbing Datasphere as its knowledge core.
+       The practical read: attach roadmap milestones to underlying
+       capabilities rather than to the current badges.
+    3. Where the sovereign practice sits — the boundary drawn
+       precisely so a complementary layer does not read as a threat.
+       Where Joule stops, EVE begins — not by weakness but by scope.
+       The two lanes are composable, and the interface between them
+       is the business data fabric.
+    4. SAP Datasphere before conversion — a discovery instrument, not
+       a target-state fabric. Pre-deployed against the current estate
+       so discovery moves from memory to measurement, and the chain
+       of Datasphere-for-observation, Discovery-AI-for-reasoning,
+       EVE-for-stable-custody becomes the sovereign cadence's
+       structural claim on cost recovery against the standard cadence.
+  PAIX renumbered from Part VI to Part VII without textual change.
+  Peer-review-canon cover paragraph updated to cite the new Part VI.
+  Parts 0–V preserved verbatim from rev 7.
 
 The mirror-3 handbook remains the room-agnostic peer-review canon —
 no client, no engagement, no room-specific vocabulary. Where a

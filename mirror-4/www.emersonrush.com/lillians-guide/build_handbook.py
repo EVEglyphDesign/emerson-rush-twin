@@ -27,7 +27,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = f"{HERE}/handbook_source.md"
 OUT = f"{HERE}/Lillians_Guide.pdf"
 TS = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-DOC_ID = "EgD-HANDBOOK-M4"; KEY_ID = "EgD-KEY-2026-07"; VERSION = "rev 10"
+DOC_ID = "EgD-HANDBOOK-M4"; KEY_ID = "EgD-KEY-2026-07"; VERSION = "rev 11"
 TITLE = "Lillian's Guide"
 SUB = "Transformational program management for information & technology · The Sovereign practitioner canon"
 RAW = open(SRC, encoding="utf-8").read()
@@ -182,7 +182,9 @@ def cover_flow():
                   'inside a multi-brand enterprise that has already made SAP its foundation, is preparing the next wave '
                   'of its S/4HANA journey through a business-led, clean-core, satellites-and-BTP posture, and is currently '
                   'completing discovery deliverables in advance of solution design. The vocabulary in the pages that follow '
-                  'is chosen to sit inside that posture.',
+                  'is chosen to sit inside that posture. Part VI reads the current SAP AI landscape — Joule, Joule Studio, '
+                  'Joule Agents, Business AI, AI Foundation, Business Data Cloud with Datasphere as its knowledge core — '
+                  'and states where the sovereign practice composes with it and where it does not.',
                   st_body),
         Paragraph('<font name="Inter-Bold">Written in the lineage of Lillian.</font> The handbook is offered without ceremony; the reader is free '
                   'to copy it, mirror it, and pass it along. Watermark and hash make tampering legible without preventing use.',

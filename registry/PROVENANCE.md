@@ -1,5 +1,44 @@
 # Provenance ledger — Emerson Rush mirror
 
+## Inside the SAP AI landscape — both handbook mirrors extended (2026-08-17T02:48:16Z)
+
+### Content revision — mirror-4 rev 10 → rev 11, mirror-3 rev 7 → rev 8. New Part VI added to both handbooks; PAIX renumbered from Part VI to Part VII without textual change; front summaries updated to cite the new Part VI; landing-page cards extended.
+
+**Why this revision exists.** The operator identified that the prior handbooks talked about the sovereign side and said nothing about SAP's own AI landscape, which the reader has been pumped full of since the first cloud briefing. A handbook that speaks only about the sovereign lane in a room already deep on the SAP side is asymmetrical and loses the reader. Rev 11/rev 8 folds a map of the current SAP AI construction into both mirrors — compact in the tuned mirror-4, fuller in the peer-review canon mirror-3 — so this handbook can name where the sovereign practice sits on the same board and where the two lanes complement each other cleanly.
+
+**What the new Part VI carries.**
+
+1. **What SAP is currently naming.** Joule as the umbrella experience; Joule Assistants embedded in the individual applications; Joule Agents as non-deterministic workflow agents grounded on SAP Knowledge Graph and SAP Business Data Cloud; Joule Studio as the build lane for enterprise-wide agentic AI; Joule for Developers and SAP AI Core beneath; SAP Business AI as the enterprise-wide brand. Beneath the AI surface: SAP Business Data Cloud as the current umbrella architecture, with SAP Datasphere named by SAP as its knowledge core, alongside SAP Knowledge Graph, SAP HANA Cloud, SAP Databricks, SAP Analytics Cloud, and the Data Marketplace. The generative-AI hub inside SAP AI Foundation composes across external LLMs; customer-facing pages do not currently list those providers by name, and the AI Foundation landing page is intermittently reachable — the handbook names this as evidence SAP is still settling how it names this layer.
+2. **The renaming trail.** SAP AI Business Services → SAP AI Core → SAP AI Launchpad → SAP AI Foundation → SAP Business AI → the Joule family → SAP Business Data Cloud absorbing SAP Datasphere as its knowledge core. Practical read for a Group Platforms roadmap: name what you deploy by the current name, expect one rename mid-programme, and attach roadmap milestones to underlying capabilities rather than to current badges.
+3. **Where the sovereign practice sits — where Joule stops, EVE begins.** The boundary is drawn precisely so a complementary layer does not read as a threat: Joule Assistants and Joule Agents inside the SAP-owned scenarios; Joule Studio as the build lane for SAP-native agents; the sovereign practice beginning where the SAP process boundary ends — cross-suite econometric reasoning, capital-appreciation on the IT asset, cross-brand signal, sovereignty over models and rituals that must not leave the customer's ledger, audit lanes that hold when a partner LLM composition changes. The two lanes are composable, not adjacent, and the interface between them is the business data fabric.
+4. **SAP Datasphere before conversion — a discovery instrument, not a target-state fabric.** The standard cadence deploys Datasphere late, as target-state fabric. That is a poor discovery posture. The sovereign cadence pre-deploys Datasphere connectivity to the current estate — ECC, satellite ERPs, master-data hubs, extract lakes, warehouse marts — so Datasphere observes the current estate rather than running it. Four consequences: discovery moves from memory to measurement; data quality is addressed before conversion; analytics is not blocked by the conversion cadence; and the Discovery AI tool in Part V gains a real substrate to reason over. The chain of Datasphere-for-observation → Discovery-AI-for-reasoning → EVE-for-stable-custody becomes the sovereign cadence's structural claim on cost recovery against the standard cadence.
+
+The mirror-4 Part VI carries the same four moves in compact prose. The mirror-3 Part VI carries them in four numbered subsections for the peer-review canon.
+
+**What changed by file.**
+
+| Path | New SHA-256 | Previous SHA-256 |
+|---|---|---|
+| `mirror-4/www.emersonrush.com/lillians-guide/handbook_source.md` | `abf743b639a4ab03bf1adadc59cb8e68dc1c448493297a42f647d997303497d7` | `2a990225f6f2b1a22f6b70cfd4545597571fc3fe8fd54d84a2dc980d2945ea7b` |
+| `mirror-4/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `88e182ade1fc20c48c0f025edbc7ac4c93eb4906d7d64c4a5434c90946c4b12f` | `67ab140502c0c92ddee91a0e981f97cc4a9472c3c69c5337d788dc3e3162e4e8` |
+| `mirror-4/www.emersonrush.com/lillians-guide/build_handbook.py` | `d0324bee096e8b4813f0f7d1c4358723c7a5030a3ed46bc7a853f917735a5cef` | `110af9a71c66f3201c93cbe9578fefaba5c861c9e36d8303f7f7ea1f705b9a39` |
+| `mirror-4/www.emersonrush.com/lillians-guide/index.html` | (updated: rev/hash/timestamp/page-count fields; new Part VI card inserted; PAIX renumbered to Part VII) | — |
+| `mirror-4/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | (rewritten: rev 11 facts of record and content notes) | — |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `bd37c2288356b61dbb2cd4daa9a77e7b67a951825c5cadf662c2bc02603fec9e` | `c9f2f562a8340919c215ba91088a4bdf4cff3f52b9409ff3c175854e5f37db8a` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `f41c143811959f6a12c99b8584fbb8bc794d1ec2babd751412f64d3326cbdbe9` | `2aefc4712dd9577fe40745a65c04da2766d7a3253d4d422b61f5e00f08f03d77` |
+| `mirror-3/www.emersonrush.com/lillians-guide/build_handbook.py` | `4895fecff7638938371a96032b886a5602b53e964c1d19222d28635e4f4e0e68` | `4e3bdceb7f106af9be56209c9317cea422bb45ffbd8426497de64eea28a10d60` |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | (updated: rev/hash/timestamp/page-count fields; three new cards inserted — Part IV, Part V, Part VI — and Part IV PAIX renumbered to Part VII) | — |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | (rewritten: rev 8 facts of record and content notes) | — |
+
+Page counts: mirror-4 grew from 9 to 11, mirror-3 grew from 8 to 12. Two-pass stamping used on both, so the page count printed in each footer matches the actual page count of the rendered PDF.
+
+**Public URLs (rebuilt after this push).**
+
+- Mirror-4 Lillian's Guide: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-4/www.emersonrush.com/lillians-guide/>
+- Mirror-3 Lillian's Guide: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-3/www.emersonrush.com/lillians-guide/>
+
+---
+
 ## Watermark quieted — both handbook PDFs re-rendered (2026-08-17T02:25:43Z)
 
 ### Render-only revision — watermark reduced from 68pt Fraunces `#eee6d4` plus a 10pt "CANON · CONTROLLED COPY" subtitle to a single 32pt Fraunces "EVEglyphDesign" mark in `#f2ecdc` at 30% opacity

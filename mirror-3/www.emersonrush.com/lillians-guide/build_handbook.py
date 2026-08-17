@@ -27,7 +27,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = f"{HERE}/handbook_source.md"
 OUT = f"{HERE}/Lillians_Guide.pdf"
 TS = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-DOC_ID = "EgD-HANDBOOK-M3"; KEY_ID = "EgD-KEY-2026-07"; VERSION = "rev 7"
+DOC_ID = "EgD-HANDBOOK-M3"; KEY_ID = "EgD-KEY-2026-07"; VERSION = "rev 8"
 TITLE = "Lillian's Guide"
 SUB = "Transformational program management for information & technology · The Sovereign practitioner canon"
 RAW = open(SRC, encoding="utf-8").read()
@@ -181,7 +181,9 @@ def cover_flow():
         Paragraph('<font name="Inter-Bold">The peer-review canon.</font> This mirror of the handbook is the room-agnostic version, '
                   'offered so consultants working in Lilian Corvington&rsquo;s lineage have something durable to practise from. It carries '
                   'no client, no engagement, and no room-specific vocabulary. Where a specific room is being met, a tuned revision '
-                  'is published on a separate mirror; the peer-review canon stays here so the method can be judged on its own merits.',
+                  'is published on a separate mirror; the peer-review canon stays here so the method can be judged on its own merits. '
+                  'Part VI reads the current SAP AI landscape — the Joule family, Business AI, AI Foundation, Business Data Cloud with '
+                  'Datasphere as its knowledge core — and names the boundary where the sovereign practice composes with it.',
                   st_body),
         Paragraph('<font name="Inter-Bold">Written in the lineage of Lillian.</font> The handbook is offered without ceremony; the reader is free '
                   'to copy it, mirror it, and pass it along. Watermark and hash make tampering legible without preventing use.',

@@ -2,29 +2,39 @@ Lillian's Guide — Sovereign practitioner canon
 Mirror 4 · Group Platforms revision
 
 File:        Lillians_Guide.pdf
-Pages:       9 · US Letter
-SHA-256:     67ab140502c0c92ddee91a0e981f97cc4a9472c3c69c5337d788dc3e3162e4e8
+Pages:       11 · US Letter
+SHA-256:     88e182ade1fc20c48c0f025edbc7ac4c93eb4906d7d64c4a5434c90946c4b12f
 Body SHA-256 (handbook_source.md):
-             2a990225f6f2b1a22f6b70cfd4545597571fc3fe8fd54d84a2dc980d2945ea7b
-Doc ID:      EgD-HANDBOOK-M4 · rev 10
+             abf743b639a4ab03bf1adadc59cb8e68dc1c448493297a42f647d997303497d7
+Doc ID:      EgD-HANDBOOK-M4 · rev 11
 Key ID:      EgD-KEY-2026-07
-Generated:   2026-08-17T02:25:42Z UTC
+Generated:   2026-08-17T02:48:16Z UTC
 Companion:   Mirror-3 Lillian's Guide (peer-review canon).
              Un-sanitised operating diagram: EgD-LSA-002 v2.0
              (private repository: EVEglyphDesign/lillian-sweden-pmo-assessment).
 
-Watermark:   Diagonal EVEglyphDesign watermark on every page.
+Watermark:   Diagonal EVEglyphDesign watermark on every page, rendered
+             subtly in cream ink so the body copy remains fully legible.
              Copyright line, timestamp, Key ID, and truncated SHA-256
              fingerprint printed in each footer.
 
 Content notes:
-             rev 10 folds in the AI Impact Adaptations (OpEx inside SAP, CapEx
-             inside the sovereign domain, PMO and business-case quantification
-             from source data), the four-function Discovery AI Tool, and the
-             author's calibration-line note that preserves the self-correction
-             every honest practitioner keeps near the desk. Sanitised — the
-             document names no client and no engagement; it is forwardable to
-             anyone in a Group Platforms room.
+             rev 11 adds Part VI — Inside the SAP AI landscape — a compact
+             map of the current SAP AI construction (Joule, Joule Assistants,
+             Joule Agents, Joule Studio, Joule for Developers, SAP AI Core,
+             SAP Business AI) and the data-and-reasoning layer beneath it
+             (SAP Business Data Cloud with SAP Datasphere named by SAP as
+             its knowledge core; SAP Knowledge Graph, SAP HANA Cloud, SAP
+             Databricks, SAP Analytics Cloud, Data Marketplace). Names the
+             renaming trail as a fact of life for a Group Platforms roadmap.
+             Draws the line: where Joule stops, EVE begins — not by
+             weakness but by scope. And reframes SAP Datasphere before
+             conversion as a discovery instrument, not a target-state
+             fabric — pre-deployed against the current estate so discovery
+             moves from memory to measurement. PAIX renumbered from Part VI
+             to Part VII without textual change. Front summary updated to
+             cite the new Part VI. Sanitised — the document names no
+             client and no engagement.
 
 The document is free to copy, mirror, and redistribute. If altered, the
 SHA-256 recorded here and in registry/PROVENANCE.md will no longer match —

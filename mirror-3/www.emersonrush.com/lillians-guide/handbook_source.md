@@ -107,7 +107,74 @@ The tool is not a product. It is the assessment layer of the operating picture, 
 
 ---
 
-## Part VI — PAIX, and the wider work
+## Part VI — The SAP AI landscape, and where the sovereign practice sits on it
+
+This handbook is written for practitioners running programmes on the SAP estate. It would be a defect of the peer-review canon to describe an assessment method, an AI adaptation tier, and a discovery tool without naming, in the same terms the room already uses, how the sovereign practice composes with the SAP AI stack that has been in place around the customer for years.
+
+The section below names the current SAP AI construction, comments briefly on why the names keep changing, and states the boundary between what SAP owns by definition and what the sovereign practice adds. It also promotes SAP Datasphere from a target-state fabric to a discovery instrument, because that promotion is a load-bearing part of how the sovereign cadence recovers cost against the standard cadence.
+
+### 1. What SAP currently names, and how the naming is settling
+
+SAP's current top-level construction, as SAP itself names it on the customer-facing product pages today:
+
+- **Joule** is the umbrella brand for SAP's AI experience.
+  - **Joule Assistants** are the embedded, grounded assistants inside the individual applications. Published by business function: Cash and Treasury, Buying, Business Network, Campaign, Career and Talent Development, Category Management, Compensation, Content, Core HR, Procurement Contract, Recurring Receivables, Workforce Upskilling, and a growing catalogue. Joule base activates for free on existing cloud subscriptions.
+  - **Joule Agents** are non-deterministic workflow agents. They choose from Joule skills, other agents, and third-party applications; act, reflect, and reason on results; and are grounded on **SAP Knowledge Graph** and **SAP Business Data Cloud**.
+  - **Joule Studio** is the build lane for enterprise-wide agentic AI — the surface for the customer's own agents.
+  - **Joule for Developers** sits alongside Joule Studio for developer-productivity workloads. Named in the Bosch Digital reference alongside **SAP AI Core** and **ABAP Cloud**.
+- **SAP Business AI** is the enterprise-wide brand covering the embedded predictive models and closed-loop feedback inside individual applications.
+- **SAP AI Core** persists as the runtime layer beneath the Joule experience, still explicitly named in current customer stories.
+- **SAP AI Foundation** is where the generative-AI hub, RAG plumbing, prompt-management, and grounding services are described in SAP's platform material. Its landing page is currently intermittently reachable, which is a small but useful piece of evidence that SAP is still settling how it names this layer.
+
+The data and reasoning layer beneath all of this:
+
+- **SAP Business Data Cloud** is the current umbrella architecture. In SAP's own words: *SAP Datasphere is a key component in SAP Business Data Cloud, serving as the knowledge core that unifies semantics, data products, and modeling.*
+- **SAP Datasphere** is the semantic and modeling core inside that fabric. It provides data integration, cataloging, semantic modeling, data warehousing, data-product management, discovery and activation, and virtualization.
+- **SAP Knowledge Graph** is the graph structure over the SAP estate that Joule Agents ground on.
+- **SAP HANA Cloud** is the runtime for the ledger, the vector and graph engines, and the reasoning surface beneath the Knowledge Graph.
+- **SAP Databricks** is SAP's own naming for the data-science and AI-processing lane on the fabric.
+- **SAP Analytics Cloud** is the visualisation and planning surface on the fabric.
+- **Data Marketplace** and **Catalog** are the SAP-managed data-product surfaces reachable through Datasphere.
+
+The generative-AI hub composes across external LLMs (SAP has described compositions across Anthropic, OpenAI, Mistral, Meta, and hyperscaler-hosted models in prior TechEd and Sapphire material). The current customer-facing pages do not list those providers by name, and the composition changes.
+
+### 2. The renaming trail, and what it means for a programme
+
+In the past three years SAP has moved through, roughly in order: **SAP AI Business Services → SAP AI Core → SAP AI Launchpad → SAP AI Foundation → SAP Business AI → the Joule family (Joule, Joule Assistants, Joule Agents, Joule Studio, Joule for Developers) → SAP Business Data Cloud absorbing SAP Datasphere as its knowledge core.**
+
+None of these names is wrong. Each renaming closes an older packaging problem and opens a newer one. The lesson for a transformational programme is not to attach roadmap milestones to the current names; it is to attach them to the underlying capabilities — grounded chat, agent authoring, embedded prediction, generative hub, semantic modeling, data-product publication, knowledge-graph reasoning — and let the names update themselves in the programme documents when SAP updates them next.
+
+The sovereign practice takes the opposite posture: it stabilises what it names, and names it in the customer's terms rather than the vendor's. The two postures are complementary. The vendor is entitled to iterate the packaging of its offering; the customer is entitled to a lane of the estate that keeps its names, its ledger structure, and its rituals across those iterations.
+
+### 3. Where the sovereign practice sits on the map
+
+The sovereign practice is not a competitor to any of the components above. It sits above the SAP ledger and reaches outward through the business data fabric. The boundary line is drawable, and it is worth drawing precisely.
+
+- **Joule Assistants and Joule Agents run inside the SAP-owned scenarios.** Their grounding is the suite's own data and process context. They are the correct instrument for anything living inside the SAP process boundary. The sovereign practice does not replace them.
+- **Joule Studio is the correct place to author SAP-native agents.** For anything whose entire behaviour lives inside the SAP process boundary, that is where it belongs.
+- **The sovereign practice begins where the SAP process boundary ends.** Cross-suite econometric reasoning, capital-appreciation of the information-and-technology asset on the balance sheet, cross-brand signal that has to cross SAP scenarios to be legible, sovereignty over models and rituals that must not leave the customer's ledger, audit lanes that must hold when a partner LLM composition changes underneath. That is the layer this handbook calls EVE.
+- **The two lanes are composable, not adjacent.** Joule Agents can call the sovereign layer for context they do not natively hold; the sovereign layer can query Joule Assistants and Agents for scenario-specific answers. Neither displaces the other. The interface between them is the business data fabric.
+
+A useful one-line statement of the position: *where Joule stops, EVE begins.* Joule is not stopped by weakness; it is stopped by scope. The sovereign lane holds what the scope leaves out.
+
+### 4. SAP Datasphere before conversion — a discovery instrument, not a target-state fabric
+
+The standard S/4HANA conversion cadence deploys Datasphere late — after conversion, as the fabric that sits on top of the new target state. That is a reasonable target-state posture. It is a poor discovery posture, because it forces the discovery phase to be run against interviews, diagrams, and the recollected shape of the current estate rather than against the current estate itself.
+
+The sovereign cadence pre-deploys Datasphere connectivity to the current estate as a **discovery instrument**. ECC, satellite ERPs, master-data hubs, extract lakes, warehouse marts. Datasphere is not asked to run the current estate; it is asked to observe it — to catalog the actual sources, surface the actual quality signal, expose the actual master-data drift, and name the data products the business has already built informally on top of the SAP core.
+
+Four consequences follow:
+
+1. **Discovery moves from memory to measurement.** Requirements are gathered against the estate as it actually behaves, not as it is recalled. Interviews still happen, but they are now interpreting measurement rather than substituting for it.
+2. **Data quality is addressed before conversion, not during it.** The poorest-quality feeds are named early; master-data reconciliation is scheduled ahead of cutover; harmonisation logic is drafted against real distributions rather than field lists. Cutover is not the place to discover data problems.
+3. **Analytics is not blocked by the conversion cadence.** The fabric is already in place upstream of the S/4HANA move; reporting, planning, and Joule-Agent grounding do not have to wait for target-state cutover to be trustworthy.
+4. **The Discovery AI tool has a real substrate.** The four functions named in Part V are much cheaper to run when Datasphere has already surfaced the estate. The chain — Datasphere for observation, Discovery AI for reasoning over that observation, EVE for stable custody of the reasoning — is the sovereign cadence's structural claim on cost recovery against the standard cadence.
+
+The pre-deployment is a chargeable piece of platform work. Its return is measured not in analytics deliverables but in conversions arriving on estates that have already been named, measured, and cleaned up in the year prior — instead of estates being named for the first time in the middle of a cutover.
+
+In plain terms: *see what you have before you decide what to build.* Datasphere-as-discovery-instrument is how that sentence lands as a programme decision, in the vocabulary already in use in the room.
+
+## Part VII — PAIX, and the wider work
 
 *Pro bono humanitatis.*
 
