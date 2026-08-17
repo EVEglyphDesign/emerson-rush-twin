@@ -3,12 +3,12 @@ Mirror 4 · Group Platforms revision
 
 File:        Lillians_Guide.pdf
 Pages:       9 · US Letter
-SHA-256:     ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef
+SHA-256:     67ab140502c0c92ddee91a0e981f97cc4a9472c3c69c5337d788dc3e3162e4e8
 Body SHA-256 (handbook_source.md):
              2a990225f6f2b1a22f6b70cfd4545597571fc3fe8fd54d84a2dc980d2945ea7b
 Doc ID:      EgD-HANDBOOK-M4 · rev 10
 Key ID:      EgD-KEY-2026-07
-Generated:   2026-08-17T01:14:52Z UTC
+Generated:   2026-08-17T02:25:42Z UTC
 Companion:   Mirror-3 Lillian's Guide (peer-review canon).
              Un-sanitised operating diagram: EgD-LSA-002 v2.0
              (private repository: EVEglyphDesign/lillian-sweden-pmo-assessment).

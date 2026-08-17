@@ -129,13 +129,12 @@ def parse(raw):
 
 def watermark(canv, doc):
     canv.saveState()
-    canv.setFont("Fraunces", 68)
-    canv.setFillColor(HexColor("#eee6d4"))
+    canv.setFont("Fraunces", 32)
+    canv.setFillColor(HexColor("#f2ecdc"))
+    canv.setFillAlpha(0.30)
     canv.translate(W/2, H/2)
     canv.rotate(30)
-    canv.drawCentredString(0, 30, "EVEglyphDesign")
-    canv.setFont("Inter", 10)
-    canv.drawCentredString(0, -12, "CANON  ·  CONTROLLED COPY")
+    canv.drawCentredString(0, 0, "EVEglyphDesign")
     canv.restoreState()
     # header
     canv.saveState()

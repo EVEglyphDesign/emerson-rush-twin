@@ -1,5 +1,29 @@
 # Provenance ledger — Emerson Rush mirror
 
+## Watermark quieted — both handbook PDFs re-rendered (2026-08-17T02:25:43Z)
+
+### Render-only revision — watermark reduced from 68pt Fraunces `#eee6d4` plus a 10pt "CANON · CONTROLLED COPY" subtitle to a single 32pt Fraunces "EVEglyphDesign" mark in `#f2ecdc` at 30% opacity
+
+On read-back the operator noted the previous watermark was too pronounced. It was: a 68pt display mark plus a 10pt Inter byline, both in cream-2 (`#eee6d4`), competed with body copy on the cover and pushed through paragraphs mid-page. The mark now sits ghost-quiet across the middle of every page — visible under close inspection, invisible at reading distance. Handbook content, page counts, source-of-record hashes, revision numbers, header, footer, and Colophon are unchanged. Only the render surface moved.
+
+The change touches four files across two mirrors. Rev numbers (`M4 rev 10`, `M3 rev 7`) are preserved because content is identical; the PDF-file hashes are new because the render bytes changed.
+
+| Path | New SHA-256 | Previous SHA-256 |
+|---|---|---|
+| `mirror-4/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `67ab140502c0c92ddee91a0e981f97cc4a9472c3c69c5337d788dc3e3162e4e8` | `ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef` |
+| `mirror-4/www.emersonrush.com/lillians-guide/build_handbook.py` | `110af9a71c66f3201c93cbe9578fefaba5c861c9e36d8303f7f7ea1f705b9a39` | `797da48af6f2520f6e4fb880e582c26fadb44cfada52f881a882bdeb5116a5b1` |
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `2aefc4712dd9577fe40745a65c04da2766d7a3253d4d422b61f5e00f08f03d77` | `d3e49b810225072832945eb0f47d1bcec4c294b860150ee15fe792e86d9dc2a4` |
+| `mirror-3/www.emersonrush.com/lillians-guide/build_handbook.py` | `4e3bdceb7f106af9be56209c9317cea422bb45ffbd8426497de64eea28a10d60` | `d76a3983702a5735075a2fdf71ac4e28732d25b84825db5a75068ceba2ae273c` |
+
+`handbook_source.md` for both mirrors is byte-identical to the entries above (mirror-4: `2a990225…`, mirror-3: `c9f2f562…`).
+
+**Public URLs.**
+
+- Mirror-4 Lillian's Guide: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-4/www.emersonrush.com/lillians-guide/>
+- Mirror-3 Lillian's Guide: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-3/www.emersonrush.com/lillians-guide/>
+
+---
+
 ## Third mirror — Lillian's Guide (peer-review canon), rev 7 (2026-08-17)
 
 ### Revision 7 — mirror-3 handbook extended with the AI Impact Adaptations, the Discovery AI tool, and the Author's calibration line (2026-08-17T01:22:28Z)

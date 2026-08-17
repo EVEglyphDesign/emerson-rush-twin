@@ -3,15 +3,15 @@ Mirror 3 · Peer-review canon
 
 file:            Lillians_Guide.pdf
 pages:           8
-generated_utc:   2026-08-17T01:22:28Z
+generated_utc:   2026-08-17T02:25:43Z
 key_id:          EgD-KEY-2026-07
 doc_id:          EgD-HANDBOOK-M3
 version:         rev 7
-final_sha256:    d3e49b810225072832945eb0f47d1bcec4c294b860150ee15fe792e86d9dc2a4
+final_sha256:    2aefc4712dd9577fe40745a65c04da2766d7a3253d4d422b61f5e00f08f03d77
 source_sha256:   c9f2f562a8340919c215ba91088a4bdf4cff3f52b9409ff3c175854e5f37db8a
 companion:       Mirror-4 Lillian's Guide (Group Platforms revision)
                  EgD-HANDBOOK-M4 rev 10
-                 sha256 ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef
+                 sha256 67ab140502c0c92ddee91a0e981f97cc4a9472c3c69c5337d788dc3e3162e4e8
 
 content_notes:
   rev 7 folds three additions into the peer-review canon:
