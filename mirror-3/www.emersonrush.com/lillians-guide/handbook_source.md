@@ -1,6 +1,6 @@
 # Lillian's Guide
 
-## Transformational program management for information &amp; technology
+## Transformational program management for information and technology
 
 ### The Sovereign practitioner canon
 
@@ -77,7 +77,37 @@ A programme that satisfies all four is Sovereign in this sense. A programme that
 
 ---
 
-## Part IV — PAIX, and the wider work
+## Part IV — The AI impact adaptations
+
+The operating picture in Parts I–III is written so that a programme designed today does not carry the design decisions of a programme written two years ago. Three named adaptations sit on top of that picture, and each of them is a matter of *what does not need to be built any more*, so a practitioner can leave energy for what does. They are additions to the diagram, not replacements for it. The two-worlds structure, the ACDOCA spine, and the Decision Intelligence outcome are unchanged; the discovery scope defined during a current engagement is written knowing what the tools of today can now do.
+
+**OpEx efficiency, held inside the existing ERP estate.** The operating-expense case for the transformation — process-cycle reduction, exception-handling reduction, working-capital release, licensing rationalisation — is calculated inside the existing ERP estate, on its own instruments, using its own reporting. That is the number the customer's finance function already trusts. The practitioner's contribution is not to invent a parallel OpEx measurement; it is to make the existing one legible against the programme's benefits map. This keeps the operating case defensible inside the enterprise after the engagement is over.
+
+**CapEx strategy, held inside the sovereign domain.** The larger, longer-horizon capital strategy — what the transformation is worth to the ownership group over its planning horizon — is calculated inside the sovereign structure. The extended ledger holds the reference numbers; the PMO tool produces the case. The CapEx claim is a customer claim, made on the customer's own instruments, defensible by the customer's own people.
+
+**PMO and business-case quantification, based on source data.** Neither number — OpEx or CapEx — is estimated from a benchmark. Both are quantified from the enterprise's own source data. That is the discipline the sovereign structure exists to enable, and it is what makes the resulting numbers speakable inside the company after the engagement is over.
+
+The three adaptations sit on the picture as an addition, not a redraw. What changes is that the discovery scope defined during a current engagement is written knowing what the tools of today can now do, rather than what the tools of two years ago could do.
+
+---
+
+## Part V — The Discovery AI tool
+
+The assessment layer is not a slide deck and it is not a spreadsheet. It is a small AI tool that runs inside the sovereign structure on the customer's side of the picture. It has four functions, in the order they run.
+
+1. **Analyse source sovereign data wherever it is today.** Standard extractors against the ACDOCA layer per operating unit, or reads against an existing data lake if one is already in place. The tool goes to the data; the data does not move to the tool.
+
+2. **Ingest all existing third-party vendor materials into an AI-efficient, indexed, structured repository.** Every prior assessment, every integrator deliverable, every scoping document, every stakeholder interview transcript, held once, indexed for retrieval, versioned. The repository is a residual asset in its own right — the customer keeps it after the engagement.
+
+3. **Identify quantitative economic benefits, prioritising technical leakage initially, and simultaneously consider the future-state primary technical barriers of the entire estate.** Technical leakage is the first pass because it is the least contested and the fastest to quantify. The future-state barriers are held alongside so the leakage work does not accidentally invest in a pattern the future state will retire.
+
+4. **Identify early value-capture targets and begin feeding Decision Intelligence worklists to existing operational systems.** The output is not a report. It is worklists that land in the operational systems the customer's people already use, so the value capture begins during the assessment rather than after it.
+
+The tool is not a product. It is the assessment layer of the operating picture, named as a thing so it can be built, measured, and handed over. When the engagement ends, the tool stays inside the customer and continues to run.
+
+---
+
+## Part VI — PAIX, and the wider work
 
 *Pro bono humanitatis.*
 
@@ -88,6 +118,18 @@ A programme that satisfies all four is Sovereign in this sense. A programme that
 **Staying with people after the engagement ends.** Client relationships come and go on their own schedule. The people met inside those relationships remain, in a quieter way, part of the practice. When a career needs a hand at recovery, we help. When a call comes in with something difficult, long after the original engagement is closed, we take the call. This is why the referral network is offered freely and stays offered, and why a first consultation can honestly say that anything useful said in the room is the client's to keep.
 
 The habit, taken together, is a habit of adding — a method, a tool now within reach, a name to call, a competent hand held out at the right moment. Where we can add, we add. Where we cannot, we say so, and we point to someone who can.
+
+---
+
+## Author's note — a calibration line
+
+Every honest practitioner keeps a self-correction near the desk, because the drift from outcome into steps is the drift that every method in every discipline is vulnerable to. The correction preserved here is the one this handbook is measured against.
+
+> You are still describing the steps to do rather than the expected outcome — i.e. why and how we understand what sovereign data means. Begin by decoding the technical leakage. Discovery worklists to existing operational systems. What is existing? What is better, what is different, what is missing?
+
+Read the practice above against that correction. The outcome is what sovereign data means, made speakable inside the enterprise by the enterprise's own people, on the enterprise's own instruments. The entry point is decoding technical leakage — the least contested, fastest quantifiable, and most defensible starting point for the assessment. The delivery is worklists into existing operational systems — not new dashboards, not new meetings, not new committees.
+
+Any future revision of this handbook that drifts from that outcome, that entry point, or that delivery is a drift. The self-correction is the calibration line.
 
 ---
 

@@ -1,0 +1,34 @@
+Lillian's Guide — Sovereign practitioner canon
+Mirror 4 · Group Platforms revision
+
+File:        Lillians_Guide.pdf
+Pages:       9 · US Letter
+SHA-256:     ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef
+Body SHA-256 (handbook_source.md):
+             2a990225f6f2b1a22f6b70cfd4545597571fc3fe8fd54d84a2dc980d2945ea7b
+Doc ID:      EgD-HANDBOOK-M4 · rev 10
+Key ID:      EgD-KEY-2026-07
+Generated:   2026-08-17T01:14:52Z UTC
+Companion:   Mirror-3 Lillian's Guide (peer-review canon).
+             Un-sanitised operating diagram: EgD-LSA-002 v2.0
+             (private repository: EVEglyphDesign/lillian-sweden-pmo-assessment).
+
+Watermark:   Diagonal EVEglyphDesign watermark on every page.
+             Copyright line, timestamp, Key ID, and truncated SHA-256
+             fingerprint printed in each footer.
+
+Content notes:
+             rev 10 folds in the AI Impact Adaptations (OpEx inside SAP, CapEx
+             inside the sovereign domain, PMO and business-case quantification
+             from source data), the four-function Discovery AI Tool, and the
+             author's calibration-line note that preserves the self-correction
+             every honest practitioner keeps near the desk. Sanitised — the
+             document names no client and no engagement; it is forwardable to
+             anyone in a Group Platforms room.
+
+The document is free to copy, mirror, and redistribute. If altered, the
+SHA-256 recorded here and in registry/PROVENANCE.md will no longer match —
+the tampering is legible without preventing use.
+
+Copyright © 2026 EVEglyphDesign. All rights reserved. Controlled copy.
+Pour le bien-être du peuple.

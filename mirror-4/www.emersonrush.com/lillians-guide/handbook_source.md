@@ -1,16 +1,16 @@
 # Lillian's Guide
 
-## Transformational program management for information &amp; technology
+## Transformational program management for information & technology
 
 ### The Sovereign practitioner canon
 
 ---
 
-**For this reader.** This mirror of the handbook is prepared for a Group Platforms conversation inside a luxury-goods enterprise that has already made SAP its foundation, is preparing the next wave of its S/4HANA journey through a business-led, clean-core, satellites-and-BTP posture, and is currently completing discovery deliverables in advance of solution design. The vocabulary in the pages that follow is chosen to sit inside that posture. Nothing in the handbook asks the reader to translate; the practice is written in the terms already in use in the room.
+**For this reader.** This mirror of the handbook is prepared for a Group Platforms conversation inside a multi-brand enterprise that has already made SAP its foundation, is preparing the next wave of its S/4HANA journey through a business-led, clean-core, satellites-and-BTP posture, and is currently completing discovery deliverables in advance of solution design. The vocabulary in the pages that follow is chosen to sit inside that posture. Nothing in the handbook asks the reader to translate; the practice is written in the terms already in use in the room.
 
 ---
 
-**Foreword.** Something has changed in the way enterprises hold their information and technology function, and it changed more quickly than most of the industry has noticed. What used to be a service centre, carrying depreciation and operating expense, is coming to be held on the same terms as any other capital asset a firm might own. The systems of record — an ERP core kept clean, the satellites that reach outward from it, the extensions that live on the platform layer, the data spine that binds them, the models that reason over that data, and the operating rituals around them — when they are built with provenance and portability and a rate of appreciation that can be measured, behave, on the ledger and in the boardroom, like the appreciating property they in fact are. The return on that property lands, as with any well-placed capital, in the parts of the business that are not the IT function: in receivables, in inventory, in cycle time, in the confidence of a regulator, in the quality of a Maison-to-Maison signal that used to travel through email.
+**Foreword.** Something has changed in the way enterprises hold their information and technology function, and it changed more quickly than most of the industry has noticed. What used to be a service centre, carrying depreciation and operating expense, is coming to be held on the same terms as any other capital asset a firm might own. The systems of record — an ERP core kept clean, the satellites that reach outward from it, the extensions that live on the platform layer, the data spine that binds them, the models that reason over that data, and the operating rituals around them — when they are built with provenance and portability and a rate of appreciation that can be measured, behave, on the ledger and in the boardroom, like the appreciating property they in fact are. The return on that property lands, as with any well-placed capital, in the parts of the business that are not the IT function: in receivables, in inventory, in cycle time, in the confidence of a regulator, in the quality of a brand-to-brand signal that used to travel through email.
 
 This is a handbook for practitioners who have decided to work in that way. It is written in the lineage of **Lillian**, who is *the Sovereign* of this practice — the word used the way it was designed to be used, as a piece of the design language of EVE Glyph Design and part of its copyright. The reader is not a bystander in that arrangement. The reader is **the ruler of their sovereign data**. Those are two different offices, and neither is a metaphor. The handbook is offered without ceremony; the reader is free to copy it, mirror it, and pass it along.
 
@@ -20,7 +20,7 @@ This is a handbook for practitioners who have decided to work in that way. It is
 
 **EVE** stands for **Enterprise Value Engineering**. It is the econometric utility ledger — the extension surface built on top of the ledger structure that most enterprises have already adopted, SAP's ACDOCA and its master-data companions — reaching outwards through Datasphere and any downstream structure the customer chooses to extend into.
 
-EVE is pro-SAP. SAP is the foundation. There are commentators who argue that SAP is no longer relevant in the age of generative AI and sovereign data; we hold the opposite position, and hold it more strongly than the marketing does. The reason the work in this handbook is possible at all — attribution of profitability to the people who made it happen, ESG signals recorded at posting time, sovereign-AI memory over the customer's own data, industry roll-ups that actually reconcile, Maison-level margin walks that stand up to a group financial review — is that the customer already owns a full ledger substrate in ACDOCA and Datasphere. Nothing else in the market gives an enterprise that starting point.
+EVE is pro-SAP. SAP is the foundation. There are commentators who argue that SAP is no longer relevant in the age of generative AI and sovereign data; we hold the opposite position, and hold it more strongly than the marketing does. The reason the work in this handbook is possible at all — attribution of profitability to the people who made it happen, ESG signals recorded at posting time, sovereign-AI memory over the customer's own data, industry roll-ups that actually reconcile, brand-level margin walks that stand up to a group financial review — is that the customer already owns a full ledger substrate in ACDOCA and Datasphere. Nothing else in the market gives an enterprise that starting point.
 
 **EVE sits as a satellite, inside the clean-core envelope.** It does not modify the ERP core. It does not compete with the group data platform. It runs on the extension platform the enterprise is already committed to — the SAP Business Technology Platform where extensions belong — and it contributes semantics upward to the group data platform through the same integration principles the enterprise's own architects have written. Where a Chief Data Officer is building a data-and-AI-augmented future for the enterprise, EVE is additive to that build, contributing the enterprise-value axis to the semantics the platform already carries. Where a Chief Platforms Officer is protecting a clean core, EVE is a satellite investment measurable against the programme's benefits case — not a modification of the core the programme is protecting.
 
@@ -36,7 +36,7 @@ Four observations. Each is the kind of thing that becomes obvious once seen, and
 
 **Information and technology has become a capital asset.** The line items that used to be treated as operating expense — data pipelines, reference models, evaluation harnesses, and the disciplined rituals around them — behave, when they are built with provenance and portability, like assets that appreciate. Held that way, they show up on the balance sheet the way other durable assets do, and they are managed accordingly. Inside a business-led ERP transformation, the appreciating asset is the *simplified and aligned* enterprise landscape itself — the coherent-and-future-proof landscape that a Group Platforms function is trying to leave behind for the next decade.
 
-**The return on that asset is realised elsewhere.** A well-structured data spine tends to reduce working capital in finance, shorten cycle time in operations, retain customers in commercial, and calm the disclosure conversation in legal. In a multi-entity, multi-Maison enterprise it also shortens the distance between what a Maison knows about its own performance and what the group can see at consolidation, which is a distinct benefit worth naming on its own. When the return is booked only inside the IT column, the asset is under-recognised, sometimes by an order of magnitude. Naming where the return actually lands, and marking it there, is a large part of what a good programme manager does.
+**The return on that asset is realised elsewhere.** A well-structured data spine tends to reduce working capital in finance, shorten cycle time in operations, retain customers in commercial, and calm the disclosure conversation in legal. In a multi-entity, multi-brand enterprise it also shortens the distance between what an operating brand knows about its own performance and what the group can see at consolidation, which is a distinct benefit worth naming on its own. When the return is booked only inside the IT column, the asset is under-recognised, sometimes by an order of magnitude. Naming where the return actually lands, and marking it there, is a large part of what a good programme manager does.
 
 **The asset appreciates when it is owner-led.** Rented systems and un-portable data appreciate on someone else's timetable, which is another way of saying they don't appreciate for the owner at all. When the customer holds the model of their own enterprise, the reference data, the evaluation set, and a tested exit, the asset compounds in the customer's hands. The consultant's role, when this is understood, becomes stewardship rather than tenancy — which is a healthier arrangement for both sides of the table, and specifically the arrangement a business-led programme is designed to produce.
 
@@ -50,7 +50,7 @@ There is a small handful of habits that, taken together, describe most of what a
 
 **Naming the appreciating asset before the charter.** A programme that cannot name, in one line, the specific balance-sheet item it is here to appreciate is not yet ready to start. The naming exercise is short — an afternoon, sometimes an hour — and it saves months of drift later. In a discovery-into-solution-design flow, the naming exercise is the first artifact of solution design, not a preamble to it.
 
-**Marking the return where it lands.** For every million a programme spends, there is a compensating figure that will show up somewhere else in the business, and it is worth taking the time to say where before the work begins. Receivables, inventory, cost-to-serve, risk-weighted capital, Maison margin. Published on day one, that map becomes the honest scoreboard the programme is judged against — and, at a group level, the same map is what a Technology CFO uses to defend the platform's unit economics against the operating businesses whose money it is spending.
+**Marking the return where it lands.** For every million a programme spends, there is a compensating figure that will show up somewhere else in the business, and it is worth taking the time to say where before the work begins. Receivables, inventory, cost-to-serve, risk-weighted capital, brand-level margin. Published on day one, that map becomes the honest scoreboard the programme is judged against — and, at a group level, the same map is what a Technology CFO uses to defend the platform's unit economics against the operating businesses whose money it is spending.
 
 **Owner-led custody, from the first drawing.** Data, keys, evaluation sets, and orchestration definitions belong in the customer's repository, under the customer's identity provider, from the first architectural sketch. Designing this in later is much harder than designing it in from the start. Inside a clean-core doctrine, owner-led custody is what makes the satellite defensible: the enterprise can extend, contract, or replace the satellite without touching the core it is protecting.
 
@@ -87,7 +87,39 @@ Inside a business-led ERP transformation running on a clean-core doctrine, the S
 
 ---
 
-## Part IV — PAIX, and the wider work
+## Part IV — The AI impact adaptations
+
+The picture of the practice has always held two worlds. On one side is the customer's sovereign structure — the ledger substrate, the reference data, the evaluation set, the operating rituals — held inside the customer's own environment and never rented back. On the other side is the operational reality of the enterprise as it runs today, on the systems it already runs. The transformation is the act of holding both worlds in view at once, and letting the sovereign structure absorb what belongs on it while leaving what belongs in the operating systems where it is.
+
+What has changed since the last generation of programmes were designed is the toolset available to run the assessment layer that sits between those two worlds. Three adaptations follow from that change, and they are named here so a programme written today does not carry the design decisions of a programme written two years ago.
+
+**OpEx efficiency, held inside SAP.** The operational efficiency case that AI now makes reachable is measured inside the existing SAP estate. Nothing about the OpEx work moves data out of the current systems or asks the enterprise to buy a new tool. The instrumentation lives on the axis, not on either side of it.
+
+**CapEx strategy, held inside the sovereign domain.** The larger, longer-horizon capital strategy — what the transformation is worth to the ownership group over its planning horizon — is calculated inside the sovereign structure. The extended ledger holds the reference numbers; the PMO tool produces the case. The CapEx claim is a customer claim, made on the customer's own instruments, defensible by the customer's own people.
+
+**PMO and business-case quantification, based on source data.** Neither number — OpEx or CapEx — is estimated from a benchmark. Both are quantified from the enterprise's own source data. That is the discipline the sovereign structure exists to enable, and it is what makes the resulting numbers speakable inside the company after the engagement is over.
+
+The three adaptations sit on the picture as an addition, not a redraw. The two-worlds structure, the ACDOCA spine, and the Decision Intelligence Centre of Excellence outcome do not change. What changes is that the discovery scope defined during a current engagement is written knowing what the tools of today can now do, rather than what the tools of two years ago could do.
+
+---
+
+## Part V — The Discovery AI tool
+
+The assessment layer is not a slide deck and it is not a spreadsheet. It is a small AI tool that runs inside the sovereign structure on the customer's side of the picture. It has four functions, in the order they run.
+
+1. **Analyse source sovereign data wherever it is today.** Standard extractors against the ACDOCA layer per operating brand, or reads against an existing data lake if one is already in place. The tool goes to the data; the data does not move to the tool.
+
+2. **Ingest all existing third-party vendor materials into an AI-efficient, indexed, structured repository.** Every prior assessment, every integrator deliverable, every scoping document, every stakeholder interview transcript, held once, indexed for retrieval, versioned. The repository is a residual asset in its own right — the customer keeps it after the engagement.
+
+3. **Identify quantitative economic benefits, prioritising technical leakage initially, and simultaneously consider the future-state primary technical barriers of the entire estate.** Technical leakage is the first pass because it is the least contested and the fastest to quantify. The future-state barriers are held alongside so the leakage work does not accidentally invest in a pattern the future state will retire.
+
+4. **Identify early value-capture targets and begin feeding Decision Intelligence worklists to existing operational systems.** The output is not a report. It is worklists that land in the operational systems the customer's people already use, so the value capture begins during the assessment rather than after it.
+
+The tool is not a product. It is the assessment layer of the operating diagram, named as a thing so it can be built, measured, and handed over. When the engagement ends, the tool stays inside the customer and continues to run.
+
+---
+
+## Part VI — PAIX, and the wider work
 
 *Pro bono humanitatis.*
 
@@ -98,6 +130,18 @@ Inside a business-led ERP transformation running on a clean-core doctrine, the S
 **Staying with people after the engagement ends.** Client relationships come and go on their own schedule. The people met inside those relationships remain, in a quieter way, part of the practice. When a career needs a hand at recovery, we help. When a call comes in with something difficult, long after the original engagement is closed, we take the call. This is why the referral network is offered freely and stays offered, and why a first consultation can honestly say that anything useful said in the room is the client's to keep.
 
 The habit, taken together, is a habit of adding — a method, a tool now within reach, a name to call, a competent hand held out at the right moment. Where we can add, we add. Where we cannot, we say so, and we point to someone who can.
+
+---
+
+## Author's note — a calibration line
+
+Every honest practitioner keeps a self-correction near the desk, because the drift from *outcome* into *steps* is the drift that every method in every discipline is vulnerable to. The correction preserved here is the one this handbook is measured against.
+
+> You are still describing the steps to do rather than the expected outcome — i.e. why and how we understand what sovereign data means. Begin by decoding the technical leakage. Discovery worklists to existing operational systems. What is existing? What is better, what is different, what is missing?
+
+Read the practice above against that correction. The outcome is what sovereign data means, made speakable inside the enterprise by the enterprise's own people, on the enterprise's own instruments. The entry point is decoding technical leakage — the least contested, fastest quantifiable, and most defensible starting point for the assessment. The delivery is worklists into existing operational systems — not new dashboards, not new meetings, not new committees.
+
+Any future revision of this handbook that drifts from that outcome, that entry point, or that delivery is a drift. The self-correction is the calibration line.
 
 ---
 

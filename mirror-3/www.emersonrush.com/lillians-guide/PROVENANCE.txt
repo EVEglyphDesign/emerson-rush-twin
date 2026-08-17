@@ -1,11 +1,35 @@
 Lillian's Guide — provenance manifest
-file: Lillians_Guide.pdf
-pages: 5
-generated_utc: 2026-08-16T07:41:51Z
-key_id: EgD-KEY-2026-07
-footer_hash: f8ebc45baded35b8da11c04fb5f4bd3a5ceeb2d1401d91b9a1822d0a16386907  (pass-2 body; footers show a truncated form of this value)
-final_sha256: 9c4e1c32c90be875bf6a629d0a9c746f5f5e97df735e8504f4a8931259a000bc
-note: The pass-2 hash printed in the footer is a stable content fingerprint;
-the file itself has a different final_sha256 because pass 3 stamps the footer.
-Tampering with the PDF changes final_sha256; the printed pass-2 hash remains the
-authoritative content fingerprint recorded here and in registry/PROVENANCE.md.
+Mirror 3 · Peer-review canon
+
+file:            Lillians_Guide.pdf
+pages:           8
+generated_utc:   2026-08-17T01:22:28Z
+key_id:          EgD-KEY-2026-07
+doc_id:          EgD-HANDBOOK-M3
+version:         rev 7
+final_sha256:    d3e49b810225072832945eb0f47d1bcec4c294b860150ee15fe792e86d9dc2a4
+source_sha256:   c9f2f562a8340919c215ba91088a4bdf4cff3f52b9409ff3c175854e5f37db8a
+companion:       Mirror-4 Lillian's Guide (Group Platforms revision)
+                 EgD-HANDBOOK-M4 rev 10
+                 sha256 ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef
+
+content_notes:
+  rev 7 folds three additions into the peer-review canon:
+    - Part IV — The AI impact adaptations (OpEx inside the ERP estate,
+      CapEx inside the sovereign domain, PMO and business-case
+      quantification from source data).
+    - Part V — The Discovery AI tool (four ordered functions of the
+      assessment layer named as a thing to be built, measured, and
+      handed over).
+    - Author's note — a calibration line (self-correction preserved
+      as the outcome/entry-point/delivery discipline the handbook is
+      measured against).
+  Parts I–III preserved verbatim from rev 6; PAIX (Part IV in rev 6)
+  renumbered to Part VI without textual change; Colophon preserved.
+
+The mirror-3 handbook remains the room-agnostic peer-review canon —
+no client, no engagement, no room-specific vocabulary. Where a
+specific room is being met, mirror-4 carries the tuned revision.
+
+Copyright © 2026 EVEglyphDesign. All rights reserved. Controlled copy.
+Pour le bien-être du peuple.

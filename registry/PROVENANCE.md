@@ -1,6 +1,82 @@
 # Provenance ledger — Emerson Rush mirror
 
-## Fourth mirror — Lillian's Guide, tuned for a Group Platforms reader (2026-08-16)
+## Third mirror — Lillian's Guide (peer-review canon), rev 7 (2026-08-17)
+
+### Revision 7 — mirror-3 handbook extended with the AI Impact Adaptations, the Discovery AI tool, and the Author's calibration line (2026-08-17T01:22:28Z)
+
+**Why this revision exists.** The operator's brief for the fourth mirror was tuned material for a Group Platforms room. The instruction that followed — *"anything from tonight worthwhile not in the 4th goes in the 3rd"* — pulls the room-agnostic methodology out of the tuned mirror into the peer-review canon where it belongs. The three additions folded in are:
+
+- Part IV — The AI impact adaptations (OpEx inside the ERP estate, CapEx inside the sovereign domain, PMO / business-case quantification from source data).
+- Part V — The Discovery AI tool (four ordered functions of the assessment layer named as a thing to be built, measured, and handed over).
+- Author's note — a calibration line (self-correction preserved as the outcome / entry-point / delivery discipline the handbook is measured against).
+
+Parts I–III are preserved verbatim from rev 6. PAIX (Part IV in rev 6) is renumbered to Part VI without textual change. The Colophon is unchanged.
+
+**Cover-page revision.** The mirror-3 cover-page paragraph is rewritten to identify the mirror as the peer-review canon and to point outward to the tuned mirror-4 revision as its companion. Room-specific vocabulary from the mirror-4 cover paragraph is removed.
+
+**Files changed at the mirror-3 slot.**
+
+| Path | SHA-256 | Note |
+|---|---|---|
+| `mirror-3/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `d3e49b810225072832945eb0f47d1bcec4c294b860150ee15fe792e86d9dc2a4` | Rebuilt rev 7 — 8 pages. Previous rev-6 hash: `171fe5ef07ab37ab149d572d943e8a89a5c44ceda7a58a7b46f9e8fde897a3d6` (superseded). |
+| `mirror-3/www.emersonrush.com/lillians-guide/handbook_source.md` | `c9f2f562a8340919c215ba91088a4bdf4cff3f52b9409ff3c175854e5f37db8a` | Extended — Parts IV, V, and Author's note appended; PAIX renumbered to Part VI. Previous rev-6 hash: `6e4898f449db4e2f85f0070c2481f2178980cf35f0b6dc7b12d82db07e37e27c` (superseded). |
+| `mirror-3/www.emersonrush.com/lillians-guide/build_handbook.py` | `d76a3983702a5735075a2fdf71ac4e28732d25b84825db5a75068ceba2ae273c` | New — mirror-3 handbook builder derived from the mirror-4 builder; cover-page copy and companion reference rewritten for the peer-review canon. |
+| `mirror-3/www.emersonrush.com/lillians-guide/index.html` | `7812aaf2e87a656c19bf235ae3ca5e7957ef0795966f2c55b3e86019d85d430d` | Hashes updated; page count updated from 5 to 8; description prose extended for the new sections; companion-mirror pointer added; stale duplicate hash lines removed. Previous rev-6 hash: `b3d11e8b837f8f5149985a8620b5160226a9146df53143b77c4dedfa54d9c0a1` (superseded). |
+| `mirror-3/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `f7dd01ee723bdf187ccd6a35878baa3955370311bb211b9c7bd9efd0495ac102` | Rewritten — rev 7 facts of record and companion-mirror pointer. |
+
+**Public URL.**
+
+- Mirror-3 Lillian's Guide: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-3/www.emersonrush.com/lillians-guide/>
+
+---
+
+## Fourth mirror — Lillian's Guide, tuned for a Group Platforms reader (2026-08-16 → 2026-08-17)
+
+### Revision 10 — mirror-4 re-anchored at `mirror-4/www.emersonrush.com/lillians-guide/`, handbook sanitised of client-specific naming, LSA-002 v2.0 content folded in as Parts IV–V + Author's note, participant reference moved to the private companion repository (2026-08-17T01:14:52Z)
+
+**Why this revision exists.** Rev 9 anchored the fourth mirror under `mirror-4/www.richemont.com/lillians-guide/` and published a handbook that named Richemont, Maisons, and the five-year horizon in the body. The operator asked for a surface a Group Platforms reader could forward to anyone on their side of the room — which means the client is unnamed and the handbook stands on its vocabulary alone. Rev 10 executes that instruction.
+
+**Folder rename.** `mirror-4/www.richemont.com/` → `mirror-4/www.emersonrush.com/`. The scaffold is aligned with mirrors 1–3 so all four mirrors sit under the same `www.emersonrush.com/` anchor. No file bytes are lost; the rename is captured as a `git mv` in the same commit as the content rewrite.
+
+**Sanitisation.** "Richemont" removed from the handbook body and from every visible page string. "Maison"/"maisons" → "operating brand"/"brand"/"multi-brand enterprise". Concrete "five years" → "planning horizon". "DI CoE" spelled out in body as "Decision Intelligence Centre of Excellence". Working vocabulary the reader carries as their own — ACDOCA, DMZ, Datasphere, S/4HANA, SAP BTP, Group Platforms, clean-core, satellites-and-BTP, business-led — preserved verbatim.
+
+**LSA-002 v2.0 content folded in.** The handbook now carries the three AI Impact Adaptations (OpEx inside the SAP estate, CapEx inside the sovereign domain, PMO/business-case quantification from source data) as Part IV, the four-function Discovery AI Tool as Part V, and the author's calibration-line self-correction as a distinct Author's note. Text is drawn from LSA-002 v2.0 in the private companion repository, sanitised to remove client-specific noun phrases.
+
+**Participant reference moved out of the public repository.** The `_participants/` folder (Teams roster README plus `participants_page1.jpg`, `participants_page2.jpg`) has been removed from `mirror-4/` and filed inside the private companion repository at `EVEglyphDesign/lillian-sweden-pmo-assessment` under `reference/participants/`. The README embedded in that folder had itself stated *"not on the public surface"* — the fact that it was ever inside a public repository was a durability/leak defect, corrected here in the same working turn as the sanitisation. Nothing is deleted; the material moves from a public lane to a private lane. Class **D** defect log entry to be appended to `registry/SIN-DEFECTS.md` in the boot-contract repository after this operator request is satisfied.
+
+**PDF build.** Two-pass stamping. Two intra-build defects surfaced and fixed before the shared read-back: bare `<b>` HTML tags in the ReportLab Paragraph stream (replaced with `<font name="Inter-Bold">`), and a `▬▬▬▬` character run used as an accent rule (replaced with a drawn `AccentRule` Flowable). Third defect fixed after the shared read-back: numbered lists in the Discovery AI Tool section rendered all items as "1." because the parser's numbered-item loop exited on the blank line between items; loop rewritten to skip blank lines within a numbered block.
+
+**Handbook facts of record.**
+
+- File — `mirror-4/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf`
+- Pages — 9 · US Letter
+- Content SHA-256 — `ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef`
+- Source SHA-256 (`handbook_source.md`) — `2a990225f6f2b1a22f6b70cfd4545597571fc3fe8fd54d84a2dc980d2945ea7b`
+- Doc ID — `EgD-HANDBOOK-M4` · rev 10
+- Key ID — `EgD-KEY-2026-07`
+- Generated — `2026-08-17T01:14:52Z` UTC
+
+**Files changed at the mirror-4 slot.**
+
+| Path | SHA-256 | Note |
+|---|---|---|
+| `mirror-4/www.emersonrush.com/index.html` | `bd6692b5cdcd8c869c9949794369e07d34bac4b378e96ab4d512d62dbd089bc8` | New — mirror-4 top landing page. No client naming. |
+| `mirror-4/www.emersonrush.com/lillians-guide/index.html` | `545d2a022b0c53c57d06dfb422f5769dac3870c92f13e082d5c4c36f46309aca` | Rewritten — sanitised, hashes updated, back-links point to new anchor. Previous rev-9 hash: `f9f4c6d7d5a09b1b6f9d7e10a5f2fbec2b40e1dcb6f9a1d10b45e7bfa5e2d8ce` (superseded). |
+| `mirror-4/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf` | `ca9e5ad3279432826ec5efaff7864ecdb7b85e06ec1922271b5bb9ca8e00f0ef` | Rebuilt rev 10 — 9 pages. Previous rev-9 hash from the Richemont slot is superseded by this file. |
+| `mirror-4/www.emersonrush.com/lillians-guide/handbook_source.md` | `2a990225f6f2b1a22f6b70cfd4545597571fc3fe8fd54d84a2dc980d2945ea7b` | Rewritten — sanitised, LSA-002 v2.0 content folded in. |
+| `mirror-4/www.emersonrush.com/lillians-guide/build_handbook.py` | `797da48af6f2520f6e4fb880e582c26fadb44cfada52f881a882bdeb5116a5b1` | New — mirror-4 handbook builder, two-pass stamping. |
+| `mirror-4/www.emersonrush.com/lillians-guide/PROVENANCE.txt` | `c9ac25d6fd013a27778eb1927c4a7af86089a18f533be2417c9c15fc30d31326` | Rewritten — hashes and body updated. |
+| `mirror-4/www.emersonrush.com/lillians-guide/PROVENANCE-NDA.txt` | `82f0c0d9a381918a37ebcaf287785af24a0dc2fcbb4f27e86a69987f6ad99680` | Sanitised — revision label changed from "Richemont-audience" to "Group Platforms". Body of NDA and PDF unchanged. |
+| `mirror-4/www.emersonrush.com/lillians-guide/Consultation_NDA.pdf` | `e823855077389dd26b341b8fed2b8242ff3ca91383f40ec7630735e8f4821b89` | Unchanged from rev 9. |
+| `mirror-4/www.emersonrush.com/lillians-guide/nda_source.md` | `801b51b3bd1a10278af28acf10f1c64a2a48c83de7bfcea9ee430448a411e9c2` | Unchanged from rev 9. |
+| `mirror-4/www.emersonrush.com/lillians-guide/_participants/` | — | **Deleted** from public repository. Material moved to `EVEglyphDesign/lillian-sweden-pmo-assessment` at `reference/participants/`. |
+| `index.html` (repository root) | `da2a205022dc934bbba7e02e6556515a4cfd099b344d63b4659845c8ed7fe229` | Fourth-mirror card added; third-mirror card retitled to "peer-review canon"; description updated from "three public surfaces" to "four public surfaces". |
+
+**Public URLs.**
+
+- Fourth-mirror landing: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-4/www.emersonrush.com/>
+- Lillian's Guide page: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-4/www.emersonrush.com/lillians-guide/>
+- Handbook PDF: <https://eveglyphdesign.github.io/emerson-rush-twin/mirror-4/www.emersonrush.com/lillians-guide/Lillians_Guide.pdf>
 
 ### Revision 9 — mirror-4 anchored at `www.richemont.com/lillians-guide/`, handbook rewritten with clean-core/satellites/BTP vocabulary, EVE positioned as an additive satellite (2026-08-16T22:17:00Z)
 
